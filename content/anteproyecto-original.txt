@@ -1,0 +1,186 @@
+Anteproyecto de Trabajo de Grado
+
+Arquitectura de referencia orientada a la sostenibilidad operativa para sistemas de información turística territorial: caso del departamento del Cesar
+
+
+
+Programa: Maestría en Ingeniería de Software (virtual)
+
+Universidad: De La Sabana
+
+Modalidad: Tesis individual
+
+Luis Felipe Mora Lobo – 0390094
+
+
+
+
+
+
+
+
+
+
+El objeto de estudio es el diseño arquitectónico de sistemas que deben operar sin garantía de financiación ni equipo permanente. El turismo es el ámbito de aplicación.
+Información general
+Título provisional	Arquitectura de referencia orientada a la sostenibilidad operativa para sistemas de información turística territorial: caso del departamento del Cesar
+Estudiante	Luis Felipe Mora Lobo
+Programa	Maestría en Ingeniería de Software (virtual)
+Modalidad	Opción 1 — Tesis
+Conformación	Individual
+Tutor propuesto	Pendiente
+Duración estimada	16 semanas (4 meses de desarrollo)
+Fecha estimada de entrega	Por confirmar por Universidad
+
+Resumen
+Los departamentos colombianos han implementado sistemas de información turística territorial financiados mediante convenios con FONTUR y el Ministerio de Comercio, Industria y Turismo. En el departamento del Cesar se identifica un patrón de discontinuidad operativa: iniciativas digitales sucesivas dejaron de estar disponibles al público pocos años después de su puesta en marcha, sin que la información recolectada permaneciera accesible tras la caída de las plataformas.
+Este trabajo aborda el fenómeno como un problema de arquitectura de software y no de gestión turística. Se propone caracterizar y diagnosticar el estado actual de la información turística del departamento y las causas técnicas de la discontinuidad; definir un modelo canónico e interoperable de datos turísticos territoriales; evaluar alternativas arquitectónicas frente a criterios explícitos de sostenibilidad operativa; y validar la alternativa seleccionada mediante una prueba de concepto con datos reales de una muestra de municipios.
+El aporte central es la formulación de la sostenibilidad operativa como atributo de calidad priorizado, con criterios de evaluación definidos y medibles, en un contexto institucional donde la financiación es intermitente y no existe garantía de equipo técnico permanente.
+Planteamiento del problema
+Contexto
+El departamento del Cesar cuenta con información turística producida por distintas fuentes institucionales: el inventario y la priorización de atractivos turísticos levantados en el marco del Plan Sectorial de Turismo departamental, el Registro Nacional de Turismo (RNT) que consolida los prestadores de servicios formales, y las estadísticas territoriales del portal PorTuColombia del MinCIT, que para el departamento del Cesar reúnen indicadores de fuentes administrativas nacionales con corte en 2022.
+Limitaciones identificadas
+Formato no procesable. El inventario de atractivos por municipio existe principalmente como documento PDF. No es consultable de forma programática, no está georreferenciado en formato estándar y no admite actualización incremental.
+Ausencia de un modelo común. Cada fuente utiliza su propia estructura, nomenclatura y granularidad territorial. No existe un identificador compartido que permita relacionar un atractivo turístico con los prestadores registrados en su municipio o con las mediciones de flujo correspondientes.
+Discontinuidad operativa de las plataformas. Las iniciativas digitales previas del departamento presentan un ciclo de vida corto, verificado mediante registros del Internet Archive. El portal SITUR Cesar registra capturas de archivo desde enero de 2021 y entregó la aplicación con su contenido habitual hasta mayo de 2025; desde junio de 2025 su dominio devuelve una página de aparcamiento y, más adelante, contenido ajeno al proyecto. Su contenido no se actualizó durante ese periodo: las cifras visibles corresponden a 2017-2018 y sus series estadísticas no quedaron accesibles fuera de la plataforma. Una segunda iniciativa, asociada al Clúster de Turismo de la Cámara de Comercio de Valledupar, registra capturas desde agosto de 2023, entregó contenido completo hasta enero de 2026 y, desde mayo de 2026, su dominio redirige a la misma página de aparcamiento, permaneciendo enlazado desde el sitio institucional. En ambos casos, la información publicada no permaneció accesible tras el cese de operación de la plataforma.
+Formulación del problema
+El problema central no es la ausencia de información ni la falta de capacidad técnica para construir un portal. Es que las soluciones construidas no sobreviven al ciclo de financiación que las originó, y su desaparición compromete la disponibilidad de los datos, de forma total o parcial según cómo estuvieran expuestos.
+El trabajo aborda el fenómeno como un problema de diseño arquitectónico y adopta como hipótesis de diagnóstico que estas soluciones se concibieron como aplicaciones dependientes de infraestructura y personal permanentes, en contextos institucionales que no garantizan ninguno de los dos. El objetivo 1 contrasta esta hipótesis; el análisis preliminar de las dos iniciativas del Cesar es consistente con ella.
+Pregunta orientadora
+¿Qué decisiones arquitectónicas permiten que un sistema de información turística territorial permanezca disponible, íntegro y actualizable cuando cesan la financiación y el equipo que lo originaron?
+Justificación 
+Pertinencia técnica. El problema corresponde de manera directa a la disciplina de la arquitectura de software: priorización de atributos de calidad, análisis de compromisos entre alternativas de diseño, interoperabilidad y modelado de datos. La sostenibilidad operativa es un atributo de calidad legítimo y medible, y su priorización explícita sobre atributos habituales como el desempeño o la riqueza funcional constituye el aporte central del trabajo.
+Pertinencia institucional. La discontinuidad reciente de la última iniciativa deja un vacío inmediato. Los actores del sector enfrentan hoy la decisión de qué hacer a continuación, lo que aumenta la probabilidad de que los resultados sean considerados.
+Pertinencia social. Los municipios pequeños del departamento carecen de capacidad presupuestal y técnica para sostener sistemas de información propios. La hipótesis del trabajo es que una arquitectura orientada a minimizar el costo de operación y a publicar los datos bajo licencia abierta podría permitir que la información permanezca disponible como bien público reutilizable, con independencia del operador de turno; su verificación forma parte de los objetivos 3 y 4.
+Replicabilidad. El modelo de sistemas de información turística territorial opera en varios departamentos del país bajo esquemas de financiación equivalentes. Los hallazgos son potencialmente transferibles más allá del caso de estudio.
+Coherencia con el plan de estudios. El trabajo integra contenidos de Arquitectura de Software, Gestión de Configuración y Mantenimiento de Software, Gerencia y Gobierno TI, Herramientas de Big Data y Ética y Legislación en Tecnología.
+Objetivos
+Objetivo general 
+•	Diseñar y validar una arquitectura de referencia para sistemas de información turística territorial que priorice la sostenibilidad operativa como atributo de calidad, aplicada al caso del departamento del Cesar.
+Objetivos específicos
+•	Diagnosticar el estado actual de la información turística del departamento del Cesar y las causas técnicas de la discontinuidad operativa de sus iniciativas digitales previas.
+•	Definir un modelo canónico de datos turísticos territoriales que integre atractivos, prestadores registrados y unidades territoriales, alineado con estándares vigentes de datos abiertos e identificación territorial oficial.
+•	Evaluar alternativas arquitectónicas frente a criterios explícitos de sostenibilidad operativa y seleccionar, con justificación documentada, la más adecuada al contexto institucional del departamento.
+•	Validar la alternativa seleccionada mediante una prueba de concepto con datos reales de una muestra de municipios, evaluada contra los criterios definidos.
+Criterios de evaluación de la sostenibilidad operativa 
+Los criterios se definen antes de la comparación de alternativas, para evitar justificación retrospectiva de una opción preferida. Se aplican tanto a las alternativas evaluadas como, en retrospectiva, a las iniciativas previas del departamento.
+
+
+
+
+
+CRITERIO	UNIDAD DE MEDIDA
+Costo de operación	Costo monetario mensual requerido para mantener el sistema disponible.
+Punto de fallo con dependencia de pago	Número de componentes cuya caducidad de pago interrumpe el servicio. 
+Carga de mantenimiento	Horas de intervención humana especializada requeridas por año. 
+Reconstruibilidad	Esfuerzo estimado para que un tercero ajeno al proyecto restituya el sistema completo a partir de los artefactos publicados.
+Supervivencia de los datos	Grado en que la información permanece accesible ante la caída de la capa de presentación.
+Independencia de proveedor	Grado de acoplamiento a servicios propietarios no sustituibles.
+
+Alternativas arquitectónicas a evaluar
+•	Aplicación monolítica con base de datos gestionada. Corresponde al patrón predominante en las iniciativas previas del departamento.
+•	Arquitectura de servicios desplegada en nube. Mayor capacidad funcional y de escalamiento, con costo y carga operativa asociados.
+•	Plataforma administrada de terceros. Menor esfuerzo de construcción, con acoplamiento a proveedor y dependencia de suscripción.
+•	Arquitectura estática orientada a datos. Separación de los datos respecto de la aplicación, persistencia en archivos versionados bajo formatos abiertos, generación estática y publicación sin componentes de ejecución permanente.
+Alcance
+Incluye
+•	Diagnóstico documentado de fuentes de información y de las causas de discontinuidad.
+•	Modelo canónico de datos y su especificación formal.
+•	Evaluación documental comparada de las alternativas arquitectónicas frente a los criterios definidos.
+•	Documento de arquitectura de referencia con decisiones de diseño justificadas.
+•	Guía de implementación y operación dirigida a un tercero, derivada de la arquitectura de referencia y del criterio de reconstruibilidad.
+•	Prueba de concepto funcional con datos reales de cinco municipios seleccionados por criterios de contraste.
+•	Evaluación de la prueba de concepto contra los criterios de sostenibilidad.
+No incluye
+•	Implementación en producción ni despliegue institucional.
+•	Construcción de prototipos para las alternativas no seleccionadas. La comparación es analítica y documental, no experimental.
+•	Carga de datos de los veinticinco municipios del departamento.
+•	Levantamiento de inventario turístico en campo.
+•	Desarrollo de aplicaciones de usuario final más allá de lo necesario para la validación.
+•	Gestión del proceso de adopción institucional.
+Nivel de profundidad
+Conforme al carácter de profundización del programa, el trabajo se orienta al diagnóstico, el diseño y la validación mediante prueba de concepto. La implementación en producción depende de decisiones institucionales externas al control nuestro y no forma parte del alcance comprometido.
+Municipios seleccionados para la prueba de concepto 
+La validación se realizará sobre cinco municipios del departamento, elegidos para cubrir ejes de contraste relevantes al modelo: tamaño y rol territorial, ubicación, presencia o ausencia de vocación turística explícita, y disponibilidad de documentación de origen.
+
+
+
+
+
+
+MUNICIPIO	           DIVIPOLA	EJE DE CONTRASTE
+Valledupar	20001	Capital; máxima densidad de prestadores registrados y presencia de datos recuperados de una plataforma en desuso.
+Aguachica	20011	Segunda ciudad, sur del departamento; alta formalidad de prestadores sin vocación turística marcada.
+Chimichagua	20175	Vocación turística fuerte (Ciénaga de Zapatosa) con baja formalidad registral: activo turístico sin registro.
+Pueblo Bello	20570	Etnoturismo asociado a la Sierra Nevada (Nabusímake); inventario de atractivos no disponible en fuente pública: brecha documental.
+Río de Oro	20614	Patrimonio colonial declarado; municipio pequeño con documentación y formalidad mínimas: caso límite.
+
+Estado de las fuentes por capa del modelo (verificación del 2026-sep-07)
+•	Prestadores de servicios turísticos. Disponibles para los cinco municipios a partir del Registro Nacional de Turismo publicado como dato abierto, con llave territorial DIVIPOLA y actualización reciente.
+•	Unidad territorial. DIVIPOLA (DANE), sin restricción.
+•	Atractivos turísticos. Disponibilidad parcial y heterogénea: existe priorización oficial para algunos municipios (Aguachica y Chimichagua entre los seleccionados) y no para otros. Para el resto, el inventario se construirá combinando el directorio recuperado de las plataformas en desuso, fuentes geoespaciales abiertas y las fuentes públicas adicionales que se identifiquen en la Fase 1. Esta heterogeneidad es, además, uno de los hallazgos del diagnóstico.
+La lista podre ajustarse en la Fase 1 si la verificación detallada de una fuente lo justifica; el número de municipios se mantiene en cinco.
+Metodología
+El trabajo adopta un método de diseño de arquitectura guiado por atributos de calidad. El diseño sigue Attribute-Driven Desig (ADD 3.0; Cervantez y Kasman, 2016), que construye la arquitectura por interacciones a partir de drivers: requisitos, restricciones y escenarios de atributos de calidad. Los escenarios de calidad operacionalizan la sostenibilidad operativa mediante los seis criterios. La evaluación de las alternativas y de la arquitectura seleccionada se apoya en los conceptos del Architecture Tradeoff Analysis Method (ATAM; Kazman, Klein y Clements, 2000) árbol de utilidad, puntos de sensibilidad y de compromiso adaptados a una comparación documental, complementada con una matriz de decisión multicriterio ponderada para la selección justificada. El trabajo se organiza en cuatro fases.
+Fase 1 — Diagnóstico (semanas 1 a 4) 
+Revisión documental de planes sectoriales, inventarios y normativa aplicable. Inventario y caracterización de las fuentes de datos disponibles. Reconstrucción del ciclo de vida de las iniciativas previas mediante análisis de registros históricos de las plataformas. Entrevistas con actores institucionales, sujetas a disponibilidad.
+Producto: documento de diagnóstico.
+Fase 2 — Modelado (semanas 5 a 8)
+Revisión de estándares aplicables de datos abiertos, información geoespacial e identificación territorial oficial. Definición de entidades, relaciones y esquema de identificadores. Validación del modelo contra las fuentes reales.
+Producto: especificación del modelo canónico.
+Fase 3 — Evaluación y diseño (semanas 9 a 12)
+Definición de la escala, el procedimiento de medición y los umbrales de cada criterio. Construcción del árbol de utilidad y caracterización de cada alternativa frente a los criterios. Evaluación comparada mediante matriz multicriterio ponderada e identificación de puntos de sensibilidad y de compromiso (enfoque ATAM). Iteraciones de diseño ADD sobre la alternativa seleccionada. Documentación de las decisiones y su trazabilidad respecto a las causas de fallo identificadas en la Fase 1.
+Producto: documento de arquitectura y matriz de evaluación.
+Fase 4 — Validación y cierre (semanas 13 a 16)
+Construcción de la prueba de concepto con datos reales. Medición contra los criterios definidos. Redacción de la guía de implementación y operación. Análisis de resultados, limitaciones, conclusiones y recomendaciones. Consolidación del documento final.
+Producto: prueba de concepto, conjunto de datos publicado, guía de implementación y documento final.
+
+Resultados esperados
+1.	Documento de diagnóstico del estado de la información turística del Cesar.
+2.	Especificación del modelo canónico de datos turísticos territoriales.
+3.	Matriz de evaluación de alternativas arquitectónicas con criterios y umbrales.
+4.	Documento de arquitectura de referencia con decisiones justificadas.
+5.	Prueba de concepto funcional con datos reales de cinco municipios (§8.4).
+6.	Conjunto de datos consolidado y publicado bajo licencia abierta.
+7.	Guía de implementación y operación de la arquitectura de referencia.
+8.	Documento final de Trabajo de Grado.
+
+
+
+
+
+
+
+Riesgos y mitigación
+RIESGO	MITIGACIÓN
+No obtener acceso a información institucional no publicada.	El diseño se sustenta únicamente en fuentes públicas; el acceso institucional es complementario, no habilitante.
+Baja disponibilidad de actores para entrevistas.	Las entrevistas se plantean como fuente de contraste, no como fuente principal del diagnóstico.
+Calidad deficiente de los datos de origen.	La selección de municipios para la prueba de concepto se hará por criterios de contraste, incluyendo casos de baja calidad documental
+Desbordamiento del alcance en la Fase 4	La muestra se limita a un máximo de cinco municipios y la validación se acota a los criterios definidos
+Dedicación limitada por simultaneidad con asignaturas del programa	Fases con productos parciales entregables, revisables de forma independiente con el tutor
+
+
+Consideraciones sobre la información
+El trabajo se basa en fuentes de información pública. No se prevé el manejo de datos personales ni de información reservada de entidades privadas. En caso de establecerse colaboración institucional que implique acceso a información no publicada, se acordarán previamente con la entidad y el tutor las condiciones de uso, anonimización y publicación.
+Los productos de datos y código se propone publicarlos bajo licencia abierta, como condición coherente con el objetivo de sostenibilidad del trabajo.
+Referencias preliminares
+Fuentes institucionales y de datos
+-	Gobernación del Cesar. Actualización del Plan Sectorial de Turismo del departamento del Cesar con Visión 2030.
+-	Ministerio de Comercio, Industria y Turismo. Plan Sectorial de Turismo del departamento del Cesar (2010).
+-	Gobernación del Cesar. Plan de Desarrollo Departamental 2024–2027.
+-	Ministerio de Comercio, Industria y Turismo. Portal de Información Turística de Colombia (PorTuColombia); antes Centro de Información Turística (CITUR).
+-	Departamento Administrativo Nacional de Estadística. DIVIPOLA — Codificación de la división político-administrativa de Colombia.
+-	Ministerio de Comercio, Industria y Turismo. Registro Nacional de Turismo (RNT).
+-	Internet Archive — Wayback Machine y Common Crawl. Registros históricos de las plataformas analizadas.
+-	Congreso de Colombia. Ley 300 de 1996 (Ley General de Turismo) y Ley 1101 de 2006.
+Literatura académica y normas técnicas (preliminar)
+-	Bass, L., Clements, P., & Kazman, R. Software Architecture in Practice (4.ª ed.). Addison-Wesley, 2021.
+-	Cervantes, H., & Kazman, R. Designing Software Architectures: A Practical Approach (método ADD 3.0). Addison-Wesley, 2016.
+-	Kazman, R., Klein, M., & Clements, P. ATAM: Method for Architecture Evaluation (CMU/SEI-2000-TR-004). Software Engineering Institute, Carnegie Mellon University, 2000.
+-	ISO/IEC/IEEE 42010. Systems and software engineering — Architecture description, 2011.
+-	ISO/IEC 25010. Systems and software engineering — SQuaRE — Modelos de calidad de sistema y software de producto.
+-	Lago, P., Koçak, S. A., Crnković, I., & Penzenstadler, B. Framing sustainability as a property of software quality. Communications of the ACM, 58(10), 2015.
+-	Calero, C., & Piattini, M. (eds.). Green in Software Engineering. Springer, 2015.
+-	Penzenstadler, B., Raturi, A., Richardson, D., & Tomlinson, B. Safety, security, now sustainability: the nonfunctional requirement for the 21st century. IEEE Software, 2014.
+-	Consultative Committee for Space Data Systems. Reference Model for an Open Archival Information System (OAIS) (CCSDS 650.0-M-2 / ISO 14721), 2012.
+-	Attard, J., Orlandi, F., Scerri, S., & Auer, S. A systematic review of open government data initiatives. Government Information Quarterly, 32(4), 2015
