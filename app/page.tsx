@@ -148,7 +148,7 @@ export default function Home() {
                 {p.objectives.map((o, i) => (
                   <li key={o}>
                     <span>0{i + 1}</span>
-                    {o}
+                    <span className="objective-text">{o}</span>
                   </li>
                 ))}
               </ol>
@@ -316,6 +316,7 @@ export default function Home() {
     </>
   );
 }
+
 
 
 
