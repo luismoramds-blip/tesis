@@ -1,0 +1,287 @@
+{
+  "fuente": "plegable_cesar_2018.pdf",
+  "sha256": "97F2E604B58359AD40D52AE33C7FB5B3B3ED8E7979F5D69343ED81EDCBC40190",
+  "bloques": [
+    {
+      "id": "M01",
+      "encabezado_revisado_visualmente": "Valledupar",
+      "tipo_provisional": "municipio",
+      "ubicacion": "superior derecha",
+      "pagina": 1,
+      "bbox_revision": [
+        985,
+        135,
+        1610,
+        245
+      ],
+      "texto_extraido_region": "Festival de la Leyenda Vallenata.\nA orillas del río Guatapurí se encuentra esta legendaria ciudad en la que nació\nuno de los géneros musicales más tradicionales de Colombia: el Vallenato. A\nritmo de caja y acordeón podrá visitar sus lugares icónicos como la Catedral de On the banks of the Guatapurí River, you will find this legendary city where one of the\nNuestra Señora del Rosario, el Parque de la Leyenda Vallenata, el Museo Galería most traditional musical genres of Colombia was born: the Vallenato. At the rhythm\nSayco y la Plaza Alfonso López, que le permitirán acercarse a algunos de los of the “caja vallenata” and the accordion you can visit the iconic spots such as the\nelementos más representativos de la cultura vallenata. Cathedral of Our Lady of the Rosary, the Leyenda Vallenata Park, the Sayco Gallery\nMuseum and the Alfonso López Square, which will allow you to get closer to some of\nthe most representative elements of the local culture.",
+      "evento_destacado": "Festival de la Leyenda Vallenata.",
+      "menciones": [
+        {
+          "nombre": "Río Guatapurí",
+          "tipo_provisional": "río"
+        },
+        {
+          "nombre": "Catedral de Nuestra Señora del Rosario",
+          "tipo_provisional": "edificación religiosa"
+        },
+        {
+          "nombre": "Parque de la Leyenda Vallenata",
+          "tipo_provisional": "parque"
+        },
+        {
+          "nombre": "Museo Galería Sayco",
+          "tipo_provisional": "museo"
+        },
+        {
+          "nombre": "Plaza Alfonso López",
+          "tipo_provisional": "plaza"
+        }
+      ],
+      "actividades": [],
+      "estado": "extracción exploratoria; no verificación externa",
+      "advertencia": "Descripción española extraída sin corregir redacción ni saltos de línea. Texto de región auxiliar puede incluir contenido vecino. Encabezado cotejado visualmente; vigencia no verificada.",
+      "descripcion_es_extraida": "A orillas del río Guatapurí se encuentra esta legendaria ciudad en la que nació \nuno de los géneros musicales más tradicionales de Colombia: el Vallenato. A \nritmo de caja y acordeón podrá visitar sus lugares icónicos como la Catedral de \nNuestra Señora del Rosario, el Parque de la Leyenda Vallenata, el Museo Galería \nSayco y la Plaza Alfonso López, que le permitirán acercarse a algunos de los \nelementos más representativos de la cultura vallenata."
+    },
+    {
+      "id": "M02",
+      "encabezado_revisado_visualmente": "Pueblo Bello",
+      "tipo_provisional": "municipio",
+      "ubicacion": "superior izquierda",
+      "pagina": 1,
+      "bbox_revision": [
+        325,
+        220,
+        675,
+        390
+      ],
+      "texto_extraido_region": "Festival del Café y de la Mochila Arhuaca.\nUbicado en pleno valle de la Sierra Nevada de Santa Marta, este lugar es la\npuerta de entrada al territorio indígena arhuaco y es reconocido por las\nplantaciones de café y la tranquilidad de sus tierras, ideales para el descanso.\nSu nombre hace honor a la biodiversidad de su fauna y flora, que se puede\napreciar en el Jardín Botánico Buzintana. Visite también el Centro de\nInterpretación de la Cultura Arhuaca.\nLocated in the Sierra Nevada valley of Santa Marta, this place is the gateway\nto the Arhuaco indigenous territory which is known by coffee plantations and\nits peaceful lands, ideal for rest. Its name honors the biodiversity of its fauna\nand flora, which can be seen in the Buzintana Botanical Garden. Make sure\nyou visit the Arhuaca Culture Interpretation Center.",
+      "evento_destacado": "Festival del Café y de la Mochila Arhuaca.",
+      "menciones": [
+        {
+          "nombre": "Sierra Nevada de Santa Marta",
+          "tipo_provisional": "referencia geográfica"
+        },
+        {
+          "nombre": "Jardín Botánico Buzintana",
+          "tipo_provisional": "jardín botánico"
+        },
+        {
+          "nombre": "Centro de Interpretación de la Cultura Arhuaca",
+          "tipo_provisional": "centro de interpretación"
+        }
+      ],
+      "actividades": [],
+      "estado": "extracción exploratoria; no verificación externa",
+      "advertencia": "Descripción española extraída sin corregir redacción ni saltos de línea. Texto de región auxiliar puede incluir contenido vecino. Encabezado cotejado visualmente; vigencia no verificada.",
+      "descripcion_es_extraida": "Ubicado en pleno valle de la Sierra Nevada de Santa Marta, este lugar es la \npuerta de entrada al territorio indígena arhuaco y es reconocido por las \nplantaciones de café y la tranquilidad de sus tierras, ideales para el descanso. \nSu nombre hace honor a la biodiversidad de su fauna y flora, que se puede \napreciar en el Jardín Botánico Buzintana. Visite también el Centro de \nInterpretación de la Cultura Arhuaca."
+    },
+    {
+      "id": "M03",
+      "encabezado_revisado_visualmente": "Chimichagua",
+      "tipo_provisional": "municipio",
+      "ubicacion": "derecha, zona media",
+      "pagina": 1,
+      "bbox_revision": [
+        940,
+        620,
+        1320,
+        850
+      ],
+      "texto_extraido_region": "Festival de Danzas, Tamboras y la Canción Inédita.\nA orillas de la ciénaga de Zapatosa y rodeado de las\nPlayas del Amor, se ubica este legendario municipio al\nque se hizo referencia en una de las canciones más\nfamosas del folclor nacional: “La Piragua”, escrita por el\ncompositor José Barros. Las pequeñas islas circundantes son\nun destino imperdible para aquellos que buscan realizar\necoturismo y pesca artesanal. Recuerde visitar la plaza\nFrancisco de Paula Santander y el pozo del Higuerón.\nThis legendary municipality is located on the shores of the\nZapatosa swamp and surrounded by the Love Beaches. One\nof the most famous songs of the national folklore: \"La\nPiragua\", was referred by and written by the composer José\nBarros. The small surrounding islands are a must-see\ndestination for those seeking ecotourism and artisanal fishing.\nDon’t forget to visit the Francisco de Paula Santander Square\nand the Higuerón Well.",
+      "evento_destacado": "Festival de Danzas, Tamboras y la Canción Inédita.",
+      "menciones": [
+        {
+          "nombre": "ciénaga de Zapatosa",
+          "tipo_provisional": "humedal"
+        },
+        {
+          "nombre": "Playas del Amor",
+          "tipo_provisional": "playas"
+        },
+        {
+          "nombre": "plaza Francisco de Paula Santander",
+          "tipo_provisional": "plaza"
+        },
+        {
+          "nombre": "pozo del Higuerón",
+          "tipo_provisional": "pozo"
+        },
+        {
+          "nombre": "pequeñas islas circundantes",
+          "tipo_provisional": "referencia colectiva sin nombres individuales"
+        }
+      ],
+      "actividades": [
+        "ecoturismo",
+        "pesca artesanal"
+      ],
+      "estado": "extracción exploratoria; no verificación externa",
+      "advertencia": "Descripción española extraída sin corregir redacción ni saltos de línea. Texto de región auxiliar puede incluir contenido vecino. Encabezado cotejado visualmente; vigencia no verificada.",
+      "descripcion_es_extraida": "A orillas de la ciénaga de Zapatosa y rodeado de las \nPlayas del Amor, se ubica este legendario municipio al \nque se hizo referencia en una de las canciones más \nfamosas del folclor nacional: “La Piragua”, escrita por el \ncompositor José Barros. Las pequeñas islas circundantes son \nun destino imperdible para aquellos que buscan realizar \necoturismo y pesca artesanal. Recuerde visitar la plaza \nFrancisco de Paula Santander y el pozo del Higuerón."
+    },
+    {
+      "id": "M04",
+      "encabezado_revisado_visualmente": "Ciénaga de la Zapatosa",
+      "tipo_provisional": "humedal",
+      "ubicacion": "inferior derecha",
+      "pagina": 1,
+      "bbox_revision": [
+        830,
+        1100,
+        1220,
+        1270
+      ],
+      "texto_extraido_region": "Líbano Representa un sistema de humedales de gran belleza lo largo del curso\nmedio-bajo del río Magdalena. Es un embalse natural que recibe las aguas\ndel río Cesar y pueblos colindantes del Magdalena. Fuente permanente de\nSanAlberto alimentación, sus características hídricas, climáticas y poblacionales ponen de\npresente un enorme potencial desde el punto de vista del ecoturismo. Dentro\nde sus actividades figuran paseos en piragua, avistamientos de fauna, pesca\nartesanal e intercambio cultural con los habitantes cienagueros. Un sitio de\nespecial atracción son Las Playas de Amor, adornadas por un muelle flotante\nque permite adentrarse a la ciénaga.\nIt represents a system of wetlands of great beauty along the lower middle course of the Magdalena River.\nIt is a natural reservoir that receives waters of the river and surrounding villages Cesar Magdalena.\nPermanent supply of water, climate and population put enormous potential of this from the point of view of\necotourism. Among its activities include canoe rides, wildlife sightings, artisanal fisheries and cultural\nexchange with cienagueros inhabitants. A special attraction site are the Beaches of Love, adorned by a\nfloating dock that allows to enter the swamp.",
+      "evento_destacado": null,
+      "menciones": [
+        {
+          "nombre": "río Magdalena",
+          "tipo_provisional": "río"
+        },
+        {
+          "nombre": "río Cesar",
+          "tipo_provisional": "río"
+        },
+        {
+          "nombre": "Las Playas de Amor",
+          "tipo_provisional": "playas"
+        }
+      ],
+      "actividades": [
+        "paseos en piragua",
+        "avistamientos de fauna",
+        "pesca artesanal",
+        "intercambio cultural"
+      ],
+      "estado": "extracción exploratoria; no verificación externa",
+      "advertencia": "Descripción española extraída sin corregir redacción ni saltos de línea. Texto de región auxiliar puede incluir contenido vecino. Encabezado cotejado visualmente; vigencia no verificada.",
+      "descripcion_es_extraida": "Representa un sistema de humedales de gran belleza lo largo del curso \nmedio-bajo del río Magdalena. Es un embalse natural que recibe las aguas \ndel río Cesar y pueblos colindantes del Magdalena. Fuente permanente de \nalimentación, sus características hídricas, climáticas y poblacionales ponen de \npresente un enorme potencial desde el punto de vista del ecoturismo. Dentro \nde sus actividades figuran paseos en piragua, avistamientos de fauna, pesca \nartesanal e intercambio cultural con los habitantes cienagueros. Un sitio de \nespecial atracción son Las Playas de Amor, adornadas por un muelle flotante \nque permite adentrarse a la ciénaga."
+    },
+    {
+      "id": "M05",
+      "encabezado_revisado_visualmente": "Manaure — Balcón Turístico",
+      "tipo_provisional": "municipio, denominación editorial",
+      "ubicacion": "derecha, zona media superior",
+      "pagina": 1,
+      "bbox_revision": [
+        1040,
+        350,
+        1610,
+        550
+      ],
+      "texto_extraido_region": "Fiestas de la Virgen del Carmen.\nA 32 kms de Valledupar, se encuentra este encanto cesarense, rico en A 32 kms of Valledupar, is the Cesareans charm, rich in agricultural\nproducción agrícola, especialmente, frutas, cacao, plantas medicinales y production especially fruits, cocoa, medicinal plants and heliconias. A natural\nheliconias. Un entorno natural demarcado por hermosas montañas environment demarcated by beautiful mountains strokes for different green,\npinceladas por diversos verdes, quebradas, una cascada, un río y la streams, a waterfall, a river and the average temperature of 24° C (75° F),\ntemperatura promedio de 24ºC, hacen de sus 1.700 kms. , un espacio make its 1,700 kms., A space for enjoyment, joy and happiness.\npara el disfrute, la alegría y la felicidad.\nThe proposed activities are the ecological trails where you can appreciate\nLas actividades que se proponen, son las caminatas ecológicas en las carved with pictographs left by the Yukpa Indians who inhabited the region\nque se podrán apreciar piedras talladas con pictogramas que dejaron stones, and large Caracolí trees enclosing the forest. After the walk, visit the Rio\nlos indígenas Yukpas que habitaban en la región, y los grandes árboles Manaure, enjoy its clear waters and fishing activities. Go to the Cerro de la\nde Caracolí que encierran el bosque. Luego de la caminata, visitar el Rio Cruz to appreciate the beautiful panorama of the city, nature and the varied\nManaure, disfrutar de sus aguas claras y actividades de pesca. Ir al Cerro species of flowers that can be found along the way. Finally, the tour ends in\nde la Cruz a apreciar el hermoso panorama del municipio, la naturaleza Manaure kiosks, where you can enjoy accommodation accompanied nature\ny las variadas especies de flores que se pueden encontrar en el camino. and diversity of flora that surrounds it.\nFinalmente, el recorrido termina en los kioscos de Manaure, donde se\npuede disfrutar del alojamiento acompañado de la naturaleza y de la\ndiversidad de flora que lo rodea.",
+      "evento_destacado": "Fiestas de la Virgen del Carmen.",
+      "menciones": [
+        {
+          "nombre": "Valledupar",
+          "tipo_provisional": "referencia territorial"
+        },
+        {
+          "nombre": "Rio Manaure",
+          "tipo_provisional": "río"
+        },
+        {
+          "nombre": "Cerro de la Cruz",
+          "tipo_provisional": "cerro"
+        },
+        {
+          "nombre": "kioscos de Manaure",
+          "tipo_provisional": "referencia colectiva"
+        }
+      ],
+      "actividades": [
+        "caminatas ecológicas",
+        "pesca",
+        "alojamiento"
+      ],
+      "estado": "extracción exploratoria; no verificación externa",
+      "advertencia": "Descripción española extraída sin corregir redacción ni saltos de línea. Texto de región auxiliar puede incluir contenido vecino. Encabezado cotejado visualmente; vigencia no verificada.",
+      "descripcion_es_extraida": "A 32 kms de Valledupar, se encuentra este encanto cesarense, rico en \nproducción agrícola, especialmente, frutas, cacao, plantas medicinales y \nheliconias. Un entorno natural demarcado por hermosas montañas \npinceladas por diversos verdes, quebradas, una cascada, un río y la \ntemperatura promedio de 24ºC, hacen de sus 1.700 kms. , un espacio \npara el disfrute, la alegría y la felicidad.\nLas actividades que se proponen, son las caminatas ecológicas en las \nque se podrán apreciar piedras talladas con pictogramas que dejaron \nlos indígenas Yukpas que habitaban en la región, y los grandes árboles \nde Caracolí que encierran el bosque. Luego de la caminata, visitar el Rio \nManaure, disfrutar de sus aguas claras y actividades de pesca. Ir al Cerro \nde la Cruz a apreciar el hermoso panorama del municipio, la naturaleza \ny las variadas especies de flores que se pueden encontrar en el camino. \nFinalmente, el recorrido termina en los kioscos de Manaure, donde se \npuede disfrutar del alojamiento acompañado de la naturaleza y de la \ndiversidad de flora que lo rodea."
+    },
+    {
+      "id": "M06",
+      "encabezado_revisado_visualmente": "Nabusimake",
+      "tipo_provisional": "asentamiento / lugar descrito",
+      "ubicacion": "izquierda, zona media",
+      "pagina": 1,
+      "bbox_revision": [
+        330,
+        480,
+        650,
+        750
+      ],
+      "texto_extraido_region": "“Lugar donde nace el sol” es la traducción del nombre de este\nespacio sagrado para los indígenas arhuacos y capital de la\nmisma comunidad, perteneciente al grupo Tayrona. Se destaca la\narquitectura tradicional con sus muros blancos en bahareque,\nbases elaboradas con roca sólida y techos en paja, así como los\nlugares de importancia ritual y la naturaleza en un estado ideal de\nconservación.\n*Solicite autorización de los líderes indígenas para acceder al lugar,\ny sea respetuoso con la comunidad y el medio ambiente.\n“Place where the sun is born” is the transla-\ntion of the name of this sacred place, located\nin the Sierra Nevada de Santa Marta and\ncapital city of the Arhuaca community, that\nbelong to the Tayrona group. It stands out for the\ntraditional architecture with white walls of adobe,\nhouse bases elaborated with solid rock, and\nthatched roofs. This town is also well-known for th\nplaces with ritual importance, and the ideal state\npreservation of nature.\n*Request for authorization of the indigenous leaders to access the pl\nand be respectful with the community and the environment.",
+      "evento_destacado": null,
+      "menciones": [],
+      "actividades": [],
+      "estado": "extracción exploratoria; no verificación externa",
+      "advertencia": "Descripción española extraída sin corregir redacción ni saltos de línea. Texto de región auxiliar puede incluir contenido vecino. Encabezado cotejado visualmente; vigencia no verificada.",
+      "descripcion_es_extraida": "“Lugar donde nace el sol” es la traducción del nombre de este \nespacio sagrado para los indígenas arhuacos y capital de la \nmisma comunidad, perteneciente al grupo Tayrona. Se destaca la \narquitectura tradicional con sus muros blancos en bahareque, \nbases elaboradas con roca sólida y techos en paja, así como los \nlugares de importancia ritual y la naturaleza en un estado ideal de \nconservación."
+    },
+    {
+      "id": "M07",
+      "encabezado_revisado_visualmente": "Río de Oro",
+      "tipo_provisional": "municipio",
+      "ubicacion": "inferior izquierda central",
+      "pagina": 1,
+      "bbox_revision": [
+        440,
+        830,
+        770,
+        1240
+      ],
+      "texto_extraido_region": "Carnaval de Río de Oro.\nPa\nSan Bernar\nLa Gloria\nG\nCon sus casonas coloniales de tapia pisada y sus festivales llenos de\nBarra\ncolorido, recibe este municipio a sus visitantes, conocido por ser uno\nLebrij\nde los más pintorescos del Cesar. Visite el parque de Los\nAguacateros, el cerro de La Cruz y el cerro de La Virgen, donde es\nposible conectar con la naturaleza y disfrutar de un ambiente de\nrelajación, que contrasta con el colorido en épocas de\ncelebraciones como la festividad de la Matanza del Tigre y el P\nacompañamiento musical de papayeras.\nThis town, renowned for being one of the most picturesque of the\ndepartment, welcomes visitors with its traditional colonial houses of\nadobe and its colorful festivals. Visit the park Los Aguacateros, and\nLa Cruz and La Virgen hills, where you can connect with nature and\nenjoy an atmosphere of relaxation, which contrasts with the bustle in\ntime of celebrations like the festival Matanza del Tigre and the\nmusical accompaniment of the papayeras.",
+      "evento_destacado": "Carnaval de Río de Oro.",
+      "menciones": [
+        {
+          "nombre": "parque de Los Aguacateros",
+          "tipo_provisional": "parque"
+        },
+        {
+          "nombre": "cerro de La Cruz",
+          "tipo_provisional": "cerro"
+        },
+        {
+          "nombre": "cerro de La Virgen",
+          "tipo_provisional": "cerro"
+        },
+        {
+          "nombre": "Matanza del Tigre",
+          "tipo_provisional": "festividad mencionada en el cuerpo"
+        }
+      ],
+      "actividades": [],
+      "estado": "extracción exploratoria; no verificación externa",
+      "advertencia": "Descripción española extraída sin corregir redacción ni saltos de línea. Texto de región auxiliar puede incluir contenido vecino. Encabezado cotejado visualmente; vigencia no verificada.",
+      "descripcion_es_extraida": "Con sus casonas coloniales de tapia pisada y sus festivales llenos de \ncolorido, recibe este municipio a sus visitantes, conocido por ser uno \nde los más pintorescos del Cesar. Visite el parque de Los \nAguacateros, el cerro de La Cruz y el cerro de La Virgen, donde es \nposible conectar con la naturaleza y disfrutar de un ambiente de \nrelajación, que contrasta con el colorido en épocas de \ncelebraciones como la festividad de la Matanza del Tigre y el \nacompañamiento musical de papayeras."
+    },
+    {
+      "id": "M08",
+      "encabezado_revisado_visualmente": "Departamento del Cesar",
+      "tipo_provisional": "contexto departamental",
+      "ubicacion": "inferior izquierda",
+      "pagina": 1,
+      "bbox_revision": [
+        50,
+        680,
+        440,
+        1220
+      ],
+      "texto_extraido_region": "h\nEsta tierra pujante y\nt\npróspera es hogar de las\np\ncomunidades indígenas\np\narhuaca, kogui, kankuama y\nwiwa quienes conservan sus cos-\ntumbres, sus conocimientos ancestra-\nles y su relación equilibrada con la\nnaturaleza.\nSin duda alguna, la cocina es otro de los tesoros\ncesarenses, pues su variada oferta gastronómica,\nentre la que se destacan platos como el sancocho,\nfritos, dulces y enyucados, deleitan el paladar con los\nsabores típicos regionales.\nEl departamento es ampliamente conocido por la elaboración de\nartesanías como bisutería con semillas, elementos decorativos con\nfibra de palma y las tradicionales mochilas arhuacas y kankuamas. Visite\nel Centro Artesanal Calle Grande en Valledupar.\nThis thriving and prosperous land is home to the indigenous\ncommunities Arhuaca, Kogui, Kankuama and Wiwa who\npreserve their traditions, ancestral knowledge and their\nbalanced relationship with nature.\nWithout a doubt, the cuisine is another of the treasures\nof this region. Among the wide variety of dishes you\ncan find the sancocho, fried food, sweets and enyu-\ncados to please your palate with the typical\nflavors of the region.\nThe department is widely known for its craft\nmaking: jewelry with seeds, decorative\nelements with palm fiber and the tradi-\ntional mochilas Arhuacas and\nKankuamas. Visit the Artisanal\nCenter on Calle Grande in\nValledupar.",
+      "evento_destacado": null,
+      "menciones": [
+        {
+          "nombre": "Centro Artesanal Calle Grande",
+          "tipo_provisional": "centro artesanal mencionado en Valledupar"
+        }
+      ],
+      "actividades": [
+        "elaboración de artesanías"
+      ],
+      "estado": "extracción exploratoria; no verificación externa",
+      "advertencia": "Descripción española extraída sin corregir redacción ni saltos de línea. Texto de región auxiliar puede incluir contenido vecino. Encabezado cotejado visualmente; vigencia no verificada.",
+      "descripcion_es_extraida": "Esta tierra pujante y \npróspera es hogar de las \ncomunidades indígenas \narhuaca, kogui, kankuama y \nwiwa quienes conservan sus cos- \ntumbres, sus conocimientos ancestra-\nles y su relación equilibrada con la \nnaturaleza.  \nSin duda alguna, la cocina es otro de los tesoros \ncesarenses, pues su variada oferta gastronómica, \nentre la que se destacan platos como el sancocho, \nfritos, dulces y enyucados, deleitan el paladar con los \nsabores típicos regionales. \nEl departamento es ampliamente conocido por la elaboración de \nartesanías como bisutería con semillas, elementos decorativos con \nfibra de palma y las tradicionales mochilas arhuacas y kankuamas. Visite \nel Centro Artesanal Calle Grande en Valledupar."
+    }
+  ]
+}

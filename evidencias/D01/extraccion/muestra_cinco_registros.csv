@@ -1,0 +1,44 @@
+﻿id_local,nombre_original,nombre_normalizado,tipo_entidad_provisional,subtipo_provisional,municipio_contextual,descripcion_individual_fuente,texto_contextual_original,nota_transformacion
+E01,Catedral de Nuestra Señora del Rosario,Catedral de Nuestra Señora del Rosario,lugar,edificación religiosa,Valledupar,,"A orillas del río Guatapurí se encuentra esta legendaria ciudad en la que nació 
+uno de los géneros musicales más tradicionales de Colombia: el Vallenato. A 
+ritmo de caja y acordeón podrá visitar sus lugares icónicos como la Catedral de 
+Nuestra Señora del Rosario, el Parque de la Leyenda Vallenata, el Museo Galería 
+Sayco y la Plaza Alfonso López, que le permitirán acercarse a algunos de los 
+elementos más representativos de la cultura vallenata.",Mención en la descripción municipal; no hay descripción individual suficiente.
+E02,Jardín Botánico Buzintana,Jardín Botánico Buzintana,lugar,jardín botánico,Pueblo Bello,,"Ubicado en pleno valle de la Sierra Nevada de Santa Marta, este lugar es la 
+puerta de entrada al territorio indígena arhuaco y es reconocido por las 
+plantaciones de café y la tranquilidad de sus tierras, ideales para el descanso. 
+Su nombre hace honor a la biodiversidad de su fauna y flora, que se puede 
+apreciar en el Jardín Botánico Buzintana. Visite también el Centro de 
+Interpretación de la Cultura Arhuaca.",Se menciona como lugar para apreciar biodiversidad; no se atribuye al jardín todo el párrafo municipal.
+E03,pozo del Higuerón,Pozo del Higuerón,lugar,pozo,Chimichagua,,"A orillas de la ciénaga de Zapatosa y rodeado de las 
+Playas del Amor, se ubica este legendario municipio al 
+que se hizo referencia en una de las canciones más 
+famosas del folclor nacional: “La Piragua”, escrita por el 
+compositor José Barros. Las pequeñas islas circundantes son 
+un destino imperdible para aquellos que buscan realizar 
+ecoturismo y pesca artesanal. Recuerde visitar la plaza 
+Francisco de Paula Santander y el pozo del Higuerón.",Normalización de la mayúscula inicial; significado y clasificación precisa del pozo pendientes.
+E04,Ciénaga de la Zapatosa,Ciénaga de la Zapatosa,lugar,humedal,,"Representa un sistema de humedales de gran belleza lo largo del curso 
+medio-bajo del río Magdalena. Es un embalse natural que recibe las aguas 
+del río Cesar y pueblos colindantes del Magdalena. Fuente permanente de 
+alimentación, sus características hídricas, climáticas y poblacionales ponen de 
+presente un enorme potencial desde el punto de vista del ecoturismo. Dentro 
+de sus actividades figuran paseos en piragua, avistamientos de fauna, pesca 
+artesanal e intercambio cultural con los habitantes cienagueros. Un sitio de 
+especial atracción son Las Playas de Amor, adornadas por un muelle flotante 
+que permite adentrarse a la ciénaga.","Representa un sistema de humedales de gran belleza lo largo del curso 
+medio-bajo del río Magdalena. Es un embalse natural que recibe las aguas 
+del río Cesar y pueblos colindantes del Magdalena. Fuente permanente de 
+alimentación, sus características hídricas, climáticas y poblacionales ponen de 
+presente un enorme potencial desde el punto de vista del ecoturismo. Dentro 
+de sus actividades figuran paseos en piragua, avistamientos de fauna, pesca 
+artesanal e intercambio cultural con los habitantes cienagueros. Un sitio de 
+especial atracción son Las Playas de Amor, adornadas por un muelle flotante 
+que permite adentrarse a la ciénaga.",Bloque propio. No se asigna municipio exclusivo; se conserva la mención relacionada de Chimichagua sin fusionarla automáticamente.
+E05,Festival de la Leyenda Vallenata.,Festival de la Leyenda Vallenata,evento,festival,Valledupar,,"A orillas del río Guatapurí se encuentra esta legendaria ciudad en la que nació 
+uno de los géneros musicales más tradicionales de Colombia: el Vallenato. A 
+ritmo de caja y acordeón podrá visitar sus lugares icónicos como la Catedral de 
+Nuestra Señora del Rosario, el Parque de la Leyenda Vallenata, el Museo Galería 
+Sayco y la Plaza Alfonso López, que le permitirán acercarse a algunos de los 
+elementos más representativos de la cultura vallenata.",Rótulo del bloque municipal. Se retira el punto final en el nombre normalizado; no se atribuye la descripción de la ciudad al evento.

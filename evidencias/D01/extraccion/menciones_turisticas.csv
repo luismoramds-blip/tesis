@@ -1,0 +1,49 @@
+﻿bloque,nombre_o_actividad,tipo_provisional,contexto_del_bloque,ubicacion_pagina_1,alcance
+M01,Valledupar,municipio,Valledupar,superior derecha,encabezado visual
+M01,Festival de la Leyenda Vallenata.,evento,Valledupar,superior derecha,rótulo asociado al bloque
+M01,Río Guatapurí,río,Valledupar,superior derecha,mención en el bloque; no implica pertenencia administrativa exclusiva
+M01,Catedral de Nuestra Señora del Rosario,edificación religiosa,Valledupar,superior derecha,mención en el bloque; no implica pertenencia administrativa exclusiva
+M01,Parque de la Leyenda Vallenata,parque,Valledupar,superior derecha,mención en el bloque; no implica pertenencia administrativa exclusiva
+M01,Museo Galería Sayco,museo,Valledupar,superior derecha,mención en el bloque; no implica pertenencia administrativa exclusiva
+M01,Plaza Alfonso López,plaza,Valledupar,superior derecha,mención en el bloque; no implica pertenencia administrativa exclusiva
+M02,Pueblo Bello,municipio,Pueblo Bello,superior izquierda,encabezado visual
+M02,Festival del Café y de la Mochila Arhuaca.,evento,Pueblo Bello,superior izquierda,rótulo asociado al bloque
+M02,Sierra Nevada de Santa Marta,referencia geográfica,Pueblo Bello,superior izquierda,mención en el bloque; no implica pertenencia administrativa exclusiva
+M02,Jardín Botánico Buzintana,jardín botánico,Pueblo Bello,superior izquierda,mención en el bloque; no implica pertenencia administrativa exclusiva
+M02,Centro de Interpretación de la Cultura Arhuaca,centro de interpretación,Pueblo Bello,superior izquierda,mención en el bloque; no implica pertenencia administrativa exclusiva
+M03,Chimichagua,municipio,Chimichagua,"derecha, zona media",encabezado visual
+M03,"Festival de Danzas, Tamboras y la Canción Inédita.",evento,Chimichagua,"derecha, zona media",rótulo asociado al bloque
+M03,ciénaga de Zapatosa,humedal,Chimichagua,"derecha, zona media",mención en el bloque; no implica pertenencia administrativa exclusiva
+M03,Playas del Amor,playas,Chimichagua,"derecha, zona media",mención en el bloque; no implica pertenencia administrativa exclusiva
+M03,plaza Francisco de Paula Santander,plaza,Chimichagua,"derecha, zona media",mención en el bloque; no implica pertenencia administrativa exclusiva
+M03,pozo del Higuerón,pozo,Chimichagua,"derecha, zona media",mención en el bloque; no implica pertenencia administrativa exclusiva
+M03,pequeñas islas circundantes,referencia colectiva sin nombres individuales,Chimichagua,"derecha, zona media",mención en el bloque; no implica pertenencia administrativa exclusiva
+M03,ecoturismo,actividad,Chimichagua,"derecha, zona media",actividad mencionada
+M03,pesca artesanal,actividad,Chimichagua,"derecha, zona media",actividad mencionada
+M04,Ciénaga de la Zapatosa,humedal,Ciénaga de la Zapatosa,inferior derecha,encabezado visual
+M04,río Magdalena,río,Ciénaga de la Zapatosa,inferior derecha,mención en el bloque; no implica pertenencia administrativa exclusiva
+M04,río Cesar,río,Ciénaga de la Zapatosa,inferior derecha,mención en el bloque; no implica pertenencia administrativa exclusiva
+M04,Las Playas de Amor,playas,Ciénaga de la Zapatosa,inferior derecha,mención en el bloque; no implica pertenencia administrativa exclusiva
+M04,paseos en piragua,actividad,Ciénaga de la Zapatosa,inferior derecha,actividad mencionada
+M04,avistamientos de fauna,actividad,Ciénaga de la Zapatosa,inferior derecha,actividad mencionada
+M04,pesca artesanal,actividad,Ciénaga de la Zapatosa,inferior derecha,actividad mencionada
+M04,intercambio cultural,actividad,Ciénaga de la Zapatosa,inferior derecha,actividad mencionada
+M05,Manaure — Balcón Turístico,"municipio, denominación editorial",Manaure — Balcón Turístico,"derecha, zona media superior",encabezado visual
+M05,Fiestas de la Virgen del Carmen.,evento,Manaure — Balcón Turístico,"derecha, zona media superior",rótulo asociado al bloque
+M05,Valledupar,referencia territorial,Manaure — Balcón Turístico,"derecha, zona media superior",mención en el bloque; no implica pertenencia administrativa exclusiva
+M05,Rio Manaure,río,Manaure — Balcón Turístico,"derecha, zona media superior",mención en el bloque; no implica pertenencia administrativa exclusiva
+M05,Cerro de la Cruz,cerro,Manaure — Balcón Turístico,"derecha, zona media superior",mención en el bloque; no implica pertenencia administrativa exclusiva
+M05,kioscos de Manaure,referencia colectiva,Manaure — Balcón Turístico,"derecha, zona media superior",mención en el bloque; no implica pertenencia administrativa exclusiva
+M05,caminatas ecológicas,actividad,Manaure — Balcón Turístico,"derecha, zona media superior",actividad mencionada
+M05,pesca,actividad,Manaure — Balcón Turístico,"derecha, zona media superior",actividad mencionada
+M05,alojamiento,actividad,Manaure — Balcón Turístico,"derecha, zona media superior",actividad mencionada
+M06,Nabusimake,asentamiento / lugar descrito,Nabusimake,"izquierda, zona media",encabezado visual
+M07,Río de Oro,municipio,Río de Oro,inferior izquierda central,encabezado visual
+M07,Carnaval de Río de Oro.,evento,Río de Oro,inferior izquierda central,rótulo asociado al bloque
+M07,parque de Los Aguacateros,parque,Río de Oro,inferior izquierda central,mención en el bloque; no implica pertenencia administrativa exclusiva
+M07,cerro de La Cruz,cerro,Río de Oro,inferior izquierda central,mención en el bloque; no implica pertenencia administrativa exclusiva
+M07,cerro de La Virgen,cerro,Río de Oro,inferior izquierda central,mención en el bloque; no implica pertenencia administrativa exclusiva
+M07,Matanza del Tigre,festividad mencionada en el cuerpo,Río de Oro,inferior izquierda central,mención en el bloque; no implica pertenencia administrativa exclusiva
+M08,Departamento del Cesar,contexto departamental,Departamento del Cesar,inferior izquierda,encabezado visual
+M08,Centro Artesanal Calle Grande,centro artesanal mencionado en Valledupar,Departamento del Cesar,inferior izquierda,mención en el bloque; no implica pertenencia administrativa exclusiva
+M08,elaboración de artesanías,actividad,Departamento del Cesar,inferior izquierda,actividad mencionada

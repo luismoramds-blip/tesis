@@ -1,0 +1,249 @@
+[
+  {
+    "id": "D01",
+    "files": [
+      {
+        "label": "Mapa turístico · PDF de una página",
+        "name": "plegable_cesar_2018.pdf",
+        "url": "/evidencias/D01/plegable_cesar_2018.pdf",
+        "size": 23396403,
+        "sha256": "97F2E604B58359AD40D52AE33C7FB5B3B3ED8E7979F5D69343ED81EDCBC40190",
+        "kind": "pdf"
+      },
+      {
+        "label": "Registro de preservación D01",
+        "name": "registro.md",
+        "url": "/evidencias/D01/registro.md",
+        "size": 22657,
+        "sha256": "6E31027B83CCADD61565F2701AE30DF3FC7CAB98E2E1AF1E85395E0E0B4CD085",
+        "kind": "md"
+      },
+      {
+        "label": "Procedencia del PDF registrada por Windows",
+        "name": "fuentes/procedencia_windows_zone_identifier.txt",
+        "url": "/evidencias/D01/fuentes/procedencia_windows_zone_identifier.txt",
+        "size": 184,
+        "sha256": "27B682961C61A481B7C34E714EF10600B5451C5F0DD386B507DF3EE013C68F99",
+        "kind": "txt"
+      },
+      {
+        "label": "Página institucional y mapa",
+        "name": "capturas/D01_01_pagina_gobernacion.png",
+        "url": "/evidencias/D01/capturas/D01_01_pagina_gobernacion.png",
+        "size": 2185669,
+        "sha256": "0495C57B74298A5B8FA38FC9FE1C0B9E1AB08835E278C80258409112808BDBB8",
+        "kind": "png"
+      },
+      {
+        "label": "Guía Flipsnack y mapa en la misma página",
+        "name": "capturas/D01_02_guia_flipsnack_y_mapa.png",
+        "url": "/evidencias/D01/capturas/D01_02_guia_flipsnack_y_mapa.png",
+        "size": 917954,
+        "sha256": "ADF9DBB49A5754CC40EAA4C02F25CB37CB0E018AF28B07B1E4922AC680697D7B",
+        "kind": "png"
+      },
+      {
+        "label": "Visor y botón de descarga",
+        "name": "capturas/D01_03_visor_flipsnack_descarga_reportada.png",
+        "url": "/evidencias/D01/capturas/D01_03_visor_flipsnack_descarga_reportada.png",
+        "size": 1086302,
+        "sha256": "999CDB82F46D070487861E0C42452D9F4C22A793136BBAE9EB95720A30218184",
+        "kind": "png"
+      },
+      {
+        "label": "Error de descarga en el navegador",
+        "name": "capturas/D01_04_error_descarga_nxdomain.png",
+        "url": "/evidencias/D01/capturas/D01_04_error_descarga_nxdomain.png",
+        "size": 42268,
+        "sha256": "5D6A5D1101704F82F11A6E6299CA773FD7A99493CED5C6E3B6D69CB1A9AA46B9",
+        "kind": "png"
+      },
+      {
+        "label": "Consultas DNS con dos resolutores",
+        "name": "capturas/D01_05_consultas_dns_local_cloudflare.png",
+        "url": "/evidencias/D01/capturas/D01_05_consultas_dns_local_cloudflare.png",
+        "size": 31573,
+        "sha256": "C164E40409E2D8111E4C503187EAB67CD9C52EA504730C89EAFBC0FAF87CD7BC",
+        "kind": "png"
+      },
+      {
+        "label": "Consultas DNS explícitas de tipo A",
+        "name": "capturas/D01_06_consultas_dns_tipo_A.png",
+        "url": "/evidencias/D01/capturas/D01_06_consultas_dns_tipo_A.png",
+        "size": 27992,
+        "sha256": "EB1392E922569B935CF5C041A1E65ACA0EA5D49BCD723873890E260FE0A45DC1",
+        "kind": "png"
+      },
+      {
+        "label": "Reproducción de la página en Wayback",
+        "name": "capturas/D01_07_wayback_pagina_20261020.png",
+        "url": "/evidencias/D01/capturas/D01_07_wayback_pagina_20261020.png",
+        "size": 1026031,
+        "sha256": "1E427B992CDB82B15BA4203E80D41C4EA6C200F04BD38FC59E8DB346A096FBFA",
+        "kind": "png"
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "files": [
+      {
+        "label": "Plan de Desarrollo Turístico · PDF",
+        "name": "plan_sectorial_turistico.pdf",
+        "url": "/evidencias/D02/plan_sectorial_turistico.pdf",
+        "size": 4207483,
+        "sha256": "6C6CC0DAE5861EA0E88F9321439A1B3AE9048171D8425F5B9C83BDD64C76DDC0",
+        "kind": "pdf"
+      },
+      {
+        "label": "Registro de preservación D02",
+        "name": "registro.md",
+        "url": "/evidencias/D02/registro.md",
+        "size": 10238,
+        "sha256": "FF1D9827346CCC596FF1FCDA80B4DBE6CB8FA23691B5E4C803FD39EA8DEEA687",
+        "kind": "md"
+      },
+      {
+        "label": "Reproducción completa de la ficha S.02 · PDF 182 / impresa 175",
+        "name": "capturas/D02_00_pagina_completa_pdf182_p175.png",
+        "url": "/evidencias/D02/capturas/D02_00_pagina_completa_pdf182_p175.png",
+        "size": 429375,
+        "sha256": "1C3B66676D3650F5B037564D5327BE13F351F8B330DE677078C19F10D88FE8DA",
+        "kind": "png"
+      },
+      {
+        "label": "Reproducción de la portada · PDF 1",
+        "name": "capturas/D02_05_portada_pdf001.png",
+        "url": "/evidencias/D02/capturas/D02_05_portada_pdf001.png",
+        "size": 1435420,
+        "sha256": "1E4EE65FD89E3B3C24E941F5A4BF07A560EC6FA52AC12341BF71FF1AE53640AF",
+        "kind": "png"
+      },
+      {
+        "label": "Ficha S.02 · objetivo y cronograma",
+        "name": "capturas/D02_01_objetivo_cronograma.png",
+        "url": "/evidencias/D02/capturas/D02_01_objetivo_cronograma.png",
+        "size": 292106,
+        "sha256": "5A792A1B02C976D99FA486348AE903CB1B1B56CF3230D66EBB66987637062F66",
+        "kind": "png"
+      },
+      {
+        "label": "Justificación y descripción · página impresa 175",
+        "name": "capturas/D02_02_justificacion_descripcion_p175.png",
+        "url": "/evidencias/D02/capturas/D02_02_justificacion_descripcion_p175.png",
+        "size": 223249,
+        "sha256": "BC3AE87C19826F0194A297B375642FFEEACEE7C4E300992C024C847D7F5DBEB7",
+        "kind": "png"
+      },
+      {
+        "label": "Gobernanza e inversión propuesta",
+        "name": "capturas/D02_03_gobernanza_financiacion.png",
+        "url": "/evidencias/D02/capturas/D02_03_gobernanza_financiacion.png",
+        "size": 141721,
+        "sha256": "1B2E3C42384E907D18CEDA06B825CB989B5468085803616682D69D1767B02EBF",
+        "kind": "png"
+      },
+      {
+        "label": "Reproducción histórica en Wayback · febrero de 2026",
+        "name": "capturas/D02_04_wayback_reproduccion_20260209.png",
+        "url": "/evidencias/D02/capturas/D02_04_wayback_reproduccion_20260209.png",
+        "size": 1009480,
+        "sha256": "00E60B7AD73F516B8C9CA6F355FCA3F846976A1CC0CB303DEB6B5E3D3873BA83",
+        "kind": "png"
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "files": [
+      {
+        "label": "Registro de preservación D03",
+        "name": "registro.md",
+        "url": "/evidencias/D03/registro.md",
+        "size": 14485,
+        "sha256": "4E91D72681942BDDE62CFD11D45068072E7018A2BD29B87F3D691ED703E67B1F",
+        "kind": "md"
+      },
+      {
+        "label": "Publicación institucional actual",
+        "name": "capturas/D03_01_publicacion_institucional.png",
+        "url": "/evidencias/D03/capturas/D03_01_publicacion_institucional.png",
+        "size": 299191,
+        "sha256": "E1B31D4D1D81883D8FA8AE3C2CE4605CBCA2DC0F47E5D848CAC9D1B2AC43CE35",
+        "kind": "png"
+      },
+      {
+        "label": "Destino actual sin descarga visible",
+        "name": "capturas/D03_02_destino_informe_sin_descarga_visible.png",
+        "url": "/evidencias/D03/capturas/D03_02_destino_informe_sin_descarga_visible.png",
+        "size": 296024,
+        "sha256": "F741FFA0037541D72BE713752EB75878ECE4AA1A14B9F6F6A4585AD9436A3F64",
+        "kind": "png"
+      },
+      {
+        "label": "Búsqueda .pdf sin coincidencias",
+        "name": "capturas/D03_03_codigo_sin_coincidencias_pdf.png",
+        "url": "/evidencias/D03/capturas/D03_03_codigo_sin_coincidencias_pdf.png",
+        "size": 466598,
+        "sha256": "09D0E391A88D47982014C2638729D1DAAA21C6150E3FED2DB5E5AACD1DF0868A",
+        "kind": "png"
+      },
+      {
+        "label": "Búsqueda download_url sin coincidencias",
+        "name": "capturas/D03_04_codigo_sin_coincidencias_download_url.png",
+        "url": "/evidencias/D03/capturas/D03_04_codigo_sin_coincidencias_download_url.png",
+        "size": 140959,
+        "sha256": "4F2E1195A7EAF839473EC41A205A31DCBACDFD3ACD6547202F6C4F9FF110A459",
+        "kind": "png"
+      },
+      {
+        "label": "Wayback sin resultados para el prefijo consultado",
+        "name": "capturas/D03_05_wayback_sin_resultados_prefijo.png",
+        "url": "/evidencias/D03/capturas/D03_05_wayback_sin_resultados_prefijo.png",
+        "size": 68576,
+        "sha256": "A821090EE7C64B7E6CFFB338DCE15EA59F51C06E6961E721B90F6C0C08992521",
+        "kind": "png"
+      },
+      {
+        "label": "Calendario histórico de la publicación",
+        "name": "capturas/D03_06_wayback_calendario_publicacion.png",
+        "url": "/evidencias/D03/capturas/D03_06_wayback_calendario_publicacion.png",
+        "size": 73961,
+        "sha256": "6AB21975F4429AAE7C784C307E4D1695735C171B0C7CD44EA6390B9D671BB0A9",
+        "kind": "png"
+      },
+      {
+        "label": "Publicación archivada · agosto de 2018",
+        "name": "capturas/D03_07_wayback_publicacion_20180827.png",
+        "url": "/evidencias/D03/capturas/D03_07_wayback_publicacion_20180827.png",
+        "size": 358186,
+        "sha256": "DE6CD64830E1CE9096B8EFBEB34F30918496BB0A78BE5625F428470EB433AA2A",
+        "kind": "png"
+      },
+      {
+        "label": "Ficha histórica · julio de 2019",
+        "name": "capturas/D03_08_wayback_ficha_descarga_20190723.png",
+        "url": "/evidencias/D03/capturas/D03_08_wayback_ficha_descarga_20190723.png",
+        "size": 321678,
+        "sha256": "05C1AF133210DDA5579127AB563EE2CF3D02F33612E4E989EA47BFAB47E47908",
+        "kind": "png"
+      },
+      {
+        "label": "Descarga HTTPS no archivada según Wayback",
+        "name": "capturas/D03_09_wayback_descarga_parametro_no_archivada.png",
+        "url": "/evidencias/D03/capturas/D03_09_wayback_descarga_parametro_no_archivada.png",
+        "size": 96706,
+        "sha256": "83DDD596910BABA84698FDD66F93E9D4C15DDC32D6200B1E76DC039947498B73",
+        "kind": "png"
+      },
+      {
+        "label": "Variante HTTP con vista en blanco",
+        "name": "capturas/D03_10_wayback_descarga_http_vista_blanca.png",
+        "url": "/evidencias/D03/capturas/D03_10_wayback_descarga_http_vista_blanca.png",
+        "size": 35536,
+        "sha256": "1D20FDF11E22B61361BA2A3766AE178048A9ACD940C0617ECF7A759664E73012",
+        "kind": "png"
+      }
+    ]
+  }
+]
