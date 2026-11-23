@@ -1,0 +1,926 @@
+{
+  "version": "2026-10-26.1",
+  "reviewedAt": "2026-10-26",
+  "reviewedAtLabel": "26 de octubre de 2026",
+  "owner": "Luis Felipe Mora Lobo",
+  "assessment": "Base documental organizada; formulación y método por consolidar. No hay todavía una arquitectura seleccionada ni resultados de validación.",
+  "areas": [
+    {
+      "id": "direccion",
+      "label": "Tutor y formalización"
+    },
+    {
+      "id": "fundamentos",
+      "label": "Problema y fundamentos"
+    },
+    {
+      "id": "metodo",
+      "label": "Método y planificación"
+    },
+    {
+      "id": "diagnostico",
+      "label": "Diagnóstico y fuentes"
+    },
+    {
+      "id": "datos",
+      "label": "Datos y muestra"
+    },
+    {
+      "id": "arquitectura",
+      "label": "Diseño arquitectónico"
+    },
+    {
+      "id": "validacion",
+      "label": "Pruebas y validación"
+    },
+    {
+      "id": "redaccion",
+      "label": "Trazabilidad y documento"
+    },
+    {
+      "id": "herramientas",
+      "label": "Sitio y versionado"
+    }
+  ],
+  "references": [
+    {
+      "id": "AP-1",
+      "label": "Comentarios al anteproyecto · punto 1",
+      "detail": "Diagnóstico que pueda refutar la causa arquitectónica; pregunta abierta a causas alternativas."
+    },
+    {
+      "id": "AP-2",
+      "label": "Comentarios al anteproyecto · punto 2",
+      "detail": "Definición medible y cinco a ocho escenarios de calidad."
+    },
+    {
+      "id": "AP-3",
+      "label": "Comentarios al anteproyecto · punto 3",
+      "detail": "Alternativas comparables, criterios equilibrados y pesos previos."
+    },
+    {
+      "id": "AP-4",
+      "label": "Comentarios al anteproyecto · punto 4",
+      "detail": "Estado del arte más allá de manuales."
+    },
+    {
+      "id": "AP-5",
+      "label": "Comentarios al anteproyecto · punto 5",
+      "detail": "Validación acorde a conclusiones, prueba de abandono y muestra heterogénea."
+    },
+    {
+      "id": "AP-6",
+      "label": "Comentarios al anteproyecto · punto 6",
+      "detail": "Diagnóstico histórico con fuentes más sólidas y otros SITUR."
+    },
+    {
+      "id": "AP-7",
+      "label": "Comentarios al anteproyecto · punto 7",
+      "detail": "Precisar ATAM y marco metodológico; DSR es una propuesta para revisar."
+    },
+    {
+      "id": "AP-8",
+      "label": "Comentarios al anteproyecto · punto 8",
+      "detail": "Justificar arquitectura de referencia o acotar a candidata."
+    },
+    {
+      "id": "AP-9",
+      "label": "Comentarios al anteproyecto · punto 9",
+      "detail": "Modelo de datos apoyado en estándares y condiciones de uso."
+    },
+    {
+      "id": "AP-10",
+      "label": "Comentarios al anteproyecto · punto 10",
+      "detail": "Cronograma, formalización, normas y detalles de presentación."
+    },
+    {
+      "id": "TG-1",
+      "label": "Comentarios al trabajo de grado · punto 1",
+      "detail": "Preservar fuentes, capturas, copias, huellas y versionado."
+    },
+    {
+      "id": "TG-2",
+      "label": "Comentarios al trabajo de grado · punto 2",
+      "detail": "Inventario planificado de fuentes para el diagnóstico."
+    },
+    {
+      "id": "TG-3",
+      "label": "Comentarios al trabajo de grado · punto 3",
+      "detail": "Verificación directa de D04 o mantenerlo pendiente."
+    },
+    {
+      "id": "TG-4",
+      "label": "Comentarios al trabajo de grado · punto 4",
+      "detail": "Introducción y método propios; adelantar fundamentos. Nueve capítulos son una sugerencia."
+    },
+    {
+      "id": "TG-5",
+      "label": "Comentarios al trabajo de grado · punto 5",
+      "detail": "Relacionar cada registro con preguntas, causas y criterios."
+    },
+    {
+      "id": "TG-6",
+      "label": "Comentarios al trabajo de grado · punto 6",
+      "detail": "Definir escenarios antes de construir y ejecutar la prueba."
+    },
+    {
+      "id": "TG-7",
+      "label": "Comentarios al trabajo de grado · punto 7",
+      "detail": "Tutor, fechas tentativas y versiones del sitio."
+    },
+    {
+      "id": "UNI",
+      "label": "Información universitaria compartida por el autor",
+      "detail": "Texto de la sesión informativa del 10 de julio de 2026: alcance realista y expediente con tutor. Confirmar fechas, canales y requisitos actuales con el programa."
+    }
+  ],
+  "resources": [
+    {
+      "id": "revision",
+      "label": "Diagnóstico de avance · 26 de octubre",
+      "url": "/seguimiento/revision_2026-10-26.md"
+    },
+    {
+      "id": "inventario",
+      "label": "Inventario inicial de fuentes",
+      "url": "/seguimiento/inventario.md"
+    },
+    {
+      "id": "muestra",
+      "label": "Muestra explicada · cinco registros",
+      "url": "/seguimiento/muestra_cinco_registros.md"
+    },
+    {
+      "id": "datos",
+      "label": "Datos de la muestra · JSON",
+      "url": "/seguimiento/muestra_cinco_registros.json"
+    },
+    {
+      "id": "int01",
+      "label": "Protocolo INT-01 · propuesto",
+      "url": "/seguimiento/INT-01_integridad.md"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ADM-01",
+      "title": "Formalizar el tutor y acordar el acompañamiento",
+      "area": "direccion",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "Se ha mencionado un posible tutor politólogo; no consta aceptación ni designación formal.",
+      "nextAction": "Preparar una reunión con pregunta, alcance y decisiones; acordar apoyo técnico complementario si resulta necesario.",
+      "acceptance": "Aceptación documentada, responsabilidades acordadas y formalización confirmada por el programa.",
+      "references": [
+        "UNI",
+        "TG-7"
+      ],
+      "files": [
+        "app/page.tsx"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "ADM-02",
+      "title": "Preparar el expediente y confirmar fechas institucionales",
+      "area": "direccion",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "La información universitaria compartida pide propuesta y aceptación del tutor; no consta expediente formalizado.",
+      "nextAction": "Reunir título, problema, objetivos, alcance, método, integrantes, aceptación, perfil del tutor y firmas; confirmar canales y fechas vigentes con el programa.",
+      "acceptance": "Expediente revisado y constancia de presentación o aprobación, según el trámite confirmado.",
+      "references": [
+        "UNI"
+      ],
+      "files": [],
+      "dependsOn": [
+        "ADM-01",
+        "FOR-01"
+      ]
+    },
+    {
+      "id": "FOR-01",
+      "title": "Reformular pregunta, resumen y objetivos sin anticipar causas",
+      "area": "fundamentos",
+      "priority": "critica",
+      "status": "por_revisar",
+      "finding": "En la conversación se propusieron dos preguntas, pero content/project.ts aún pregunta qué decisiones permiten la continuidad y el primer objetivo presupone causas técnicas.",
+      "nextAction": "Separar diagnóstico causal y problema de diseño; revisar también la afirmación categórica del resumen.",
+      "acceptance": "Pregunta, resumen, objetivos y alcance coherentes y revisados con el tutor; las causas alternativas pueden refutar la hipótesis.",
+      "references": [
+        "AP-1"
+      ],
+      "files": [
+        "content/project.ts",
+        "app/page.tsx"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "FOR-02",
+      "title": "Definir sostenibilidad operativa con sustento bibliográfico",
+      "area": "fundamentos",
+      "priority": "critica",
+      "status": "pendiente",
+      "finding": "Hay una definición de trabajo en la conversación e INT-01, pero no una síntesis conceptual documentada con literatura.",
+      "nextAction": "Redactar definición, dimensiones, restricciones y relación con atributos de calidad; diferenciar conservación, disponibilidad y actualización.",
+      "acceptance": "Definición argumentada y trazable a fuentes verificadas, con indicadores y límites temporales explícitos.",
+      "references": [
+        "AP-2",
+        "TG-4"
+      ],
+      "files": [
+        "investigacion/escenarios/INT-01_integridad.md"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "FOR-03",
+      "title": "Construir el estado del arte y verificar referencias",
+      "area": "fundamentos",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "El anteproyecto conserva principalmente manuales y normas; no hay revisión de trabajos relacionados documentada.",
+      "nextAction": "Definir búsquedas y criterios de selección para sostenibilidad, gobierno digital, preservación, local-first, minimal computing y experiencias SITUR; comprobar ediciones.",
+      "acceptance": "Matriz bibliográfica con búsqueda, selección, aportes, límites y brecha del trabajo; referencias verificadas.",
+      "references": [
+        "AP-4",
+        "AP-10"
+      ],
+      "files": [
+        "content/project.ts"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "FOR-04",
+      "title": "Decidir si el producto será arquitectura candidata o de referencia",
+      "area": "fundamentos",
+      "priority": "alta",
+      "status": "por_revisar",
+      "finding": "El título sigue prometiendo una arquitectura de referencia, aunque el estudio se concentra en un caso.",
+      "nextAction": "Acordar con el tutor si se acota el nombre o se amplía el sustento comparativo y la evaluación.",
+      "acceptance": "Decisión justificada en título, alcance, objetivos y conclusiones esperadas.",
+      "references": [
+        "AP-8"
+      ],
+      "files": [
+        "content/project.ts"
+      ],
+      "dependsOn": [
+        "ADM-01",
+        "FOR-03"
+      ]
+    },
+    {
+      "id": "MET-01",
+      "title": "Definir método, protocolo del diagnóstico y amenazas a la validez",
+      "area": "metodo",
+      "priority": "critica",
+      "status": "pendiente",
+      "finding": "Existe INT-01, pero no un capítulo o protocolo general que conecte diagnóstico, diseño y evaluación.",
+      "nextAction": "Evaluar el encuadre metodológico propuesto por el profesor y definir fuentes, selección de casos, instrumentos, análisis y amenazas.",
+      "acceptance": "Método documentado y revisado; distingue conocimiento del caso, construcción del artefacto y evaluación.",
+      "references": [
+        "AP-7",
+        "TG-2",
+        "TG-4"
+      ],
+      "files": [
+        "investigacion/escenarios/INT-01_integridad.md"
+      ],
+      "dependsOn": [
+        "FOR-01",
+        "FOR-02"
+      ]
+    },
+    {
+      "id": "MET-02",
+      "title": "Revisar la estructura de capítulos y el cronograma",
+      "area": "metodo",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "content/thesis.ts aún contiene siete capítulos; faltan introducción y método propios. El plan original es de 16 semanas.",
+      "nextAction": "Proponer introducción, fundamentos, método, diagnóstico, datos, arquitectura, validación, resultados y cierre; estimar tiempos y dependencias con el tutor.",
+      "acceptance": "Estructura acordada y cronograma realista con fechas tentativas; distinguir sugerencia del profesor de requisito institucional.",
+      "references": [
+        "TG-4",
+        "AP-10",
+        "TG-7"
+      ],
+      "files": [
+        "content/thesis.ts",
+        "content/project.ts"
+      ],
+      "dependsOn": [
+        "MET-01"
+      ]
+    },
+    {
+      "id": "EVI-01",
+      "title": "Preservar los PDF locales de D01 y D02 con sus capturas",
+      "area": "diagnostico",
+      "priority": "normal",
+      "status": "hecha",
+      "finding": "Existen dos PDF, sus registros y capturas. Las huellas actuales coinciden con el manifiesto de preservación revisado.",
+      "nextAction": "Mantener copias y registrar nuevas observaciones sin sobrescribir el historial.",
+      "acceptance": "Archivos legibles, procedencia y huellas verificadas. Este cierre cubre copia local, no preservación íntegra en Wayback.",
+      "references": [
+        "TG-1"
+      ],
+      "files": [
+        "evidencias/D01/registro.md",
+        "evidencias/D02/registro.md",
+        "content/preservation.json"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "EVI-02",
+      "title": "Documentar D03 y el resultado de recuperación",
+      "area": "diagnostico",
+      "priority": "normal",
+      "status": "hecha",
+      "finding": "Se conservaron diez capturas y se reprodujeron publicación y ficha históricas; el informe no se recuperó por las vías probadas.",
+      "nextAction": "Conservar el límite de la conclusión; tratar la búsqueda de otra copia como ampliación separada.",
+      "acceptance": "Registro con URL, procedimiento, huellas, resultado y límites. No equivale a recuperar el informe.",
+      "references": [
+        "TG-1",
+        "AP-6"
+      ],
+      "files": [
+        "evidencias/D03/registro.md"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "EVI-03",
+      "title": "Ampliar el inventario a un plan sistemático de fuentes",
+      "area": "diagnostico",
+      "priority": "alta",
+      "status": "en_curso",
+      "finding": "Hay un inventario inicial de D01–D03, pero no un plan completo de fuentes, preguntas y estado.",
+      "nextAction": "Añadir SECOP, FONTUR/MinCIT, Gobernación, dominio, casos comparables y actores; fijar criterios de inclusión y búsqueda.",
+      "acceptance": "Cada fuente tiene pregunta que responde, método, estado, ubicación de evidencia y siguiente acción.",
+      "references": [
+        "TG-2"
+      ],
+      "files": [
+        "evidencias/inventario.md"
+      ],
+      "dependsOn": [
+        "FOR-01"
+      ]
+    },
+    {
+      "id": "EVI-04",
+      "title": "Contrastar directamente D04 y reconstruir el dominio",
+      "area": "diagnostico",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "D04 conserva el fallo de una herramienta del 9 de octubre; no hay evidencia suficiente del estado del dominio.",
+      "nextAction": "Registrar acceso directo, respuesta HTTP, DNS, datos disponibles de dominio/certificados y capturas históricas con fecha y método.",
+      "acceptance": "Registro D04 reproducible con resultados y límites; ningún error del intermediario se presenta como cierre del sistema.",
+      "references": [
+        "TG-3",
+        "AP-6"
+      ],
+      "files": [
+        "content/evidence.ts"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "EVI-05",
+      "title": "Investigar contratos, financiación y responsabilidades",
+      "area": "diagnostico",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "D02 documenta planes y D03 declaraciones institucionales; ninguno acredita ejecución contractual, pagos ni entrega de datos o código.",
+      "nextAction": "Consultar SECOP y documentos de FONTUR, MinCIT y entidades; extraer duración, obligaciones, propiedad y mecanismos de entrega.",
+      "acceptance": "Matriz causal con documentos y separación de hechos, hipótesis y vacíos técnicos, contractuales, presupuestales y de gobernanza.",
+      "references": [
+        "AP-1",
+        "AP-6",
+        "TG-2"
+      ],
+      "files": [
+        "evidencias/D02/registro.md",
+        "evidencias/D03/registro.md"
+      ],
+      "dependsOn": [
+        "EVI-03"
+      ]
+    },
+    {
+      "id": "EVI-06",
+      "title": "Comparar otros SITUR y definir participación de actores",
+      "area": "diagnostico",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "No hay comparación documentada con otros departamentos ni instrumentos de consulta a interesados.",
+      "nextAction": "Elegir casos con criterios explícitos y acordar actores, preguntas, permisos y manejo de respuestas antes de contactar.",
+      "acceptance": "Selección justificada, protocolo y evidencia comparable; consentimientos si se realizan entrevistas.",
+      "references": [
+        "AP-6",
+        "AP-7",
+        "TG-2"
+      ],
+      "files": [],
+      "dependsOn": [
+        "EVI-03",
+        "MET-01"
+      ]
+    },
+    {
+      "id": "EVI-07",
+      "title": "Completar verificaciones complementarias de archivo web",
+      "area": "diagnostico",
+      "priority": "normal",
+      "status": "pendiente",
+      "finding": "D02 abre una reproducción histórica; la captura exacta de octubre y la igualdad de bytes archivados no están verificadas. D01 conserva la página de forma parcial.",
+      "nextAction": "Verificar cuando sea posible el PDF archivado y la preservación separada del mapa/guía; registrar un resultado negativo acotado si no se consigue.",
+      "acceptance": "Estado y alcance explícitos para cada URL; comparación de huellas solo cuando se recuperen los bytes.",
+      "references": [
+        "TG-1"
+      ],
+      "files": [
+        "evidencias/D01/registro.md",
+        "evidencias/D02/registro.md"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "EVI-08",
+      "title": "Buscar una copia alternativa del informe D03",
+      "area": "diagnostico",
+      "priority": "normal",
+      "status": "pendiente",
+      "finding": "La referencia y ficha se recuperan; el archivo completo sigue sin obtenerse. No hace falta repetir las consultas idénticas.",
+      "nextAction": "Buscar por una nueva vía documental o preparar una solicitud concreta a la entidad, sin enviar mensajes automáticamente.",
+      "acceptance": "Informe preservado con huella o búsqueda alternativa registrada y cierre explícito del alcance de recuperación.",
+      "references": [
+        "AP-6"
+      ],
+      "files": [
+        "evidencias/D03/registro.md"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "DAT-01",
+      "title": "Extraer y cotejar los ocho bloques descriptivos del mapa",
+      "area": "datos",
+      "priority": "normal",
+      "status": "hecha",
+      "finding": "Hay texto completo, coordenadas sobre la página, ocho bloques y 48 filas de menciones/actividades. El autor confirmó las descripciones.",
+      "nextAction": "Mantener separados texto original, normalización y clasificación; las 48 filas no son 48 atractivos únicos.",
+      "acceptance": "Extracción y revisión registradas, con correcciones de Chimichagua/Zapatosa y límites explícitos.",
+      "references": [
+        "AP-9",
+        "TG-5"
+      ],
+      "files": [
+        "evidencias/D01/extraccion/README.md",
+        "evidencias/D01/extraccion/bloques_descriptivos.json"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "DAT-02",
+      "title": "Preparar cinco registros exploratorios con procedencia",
+      "area": "datos",
+      "priority": "normal",
+      "status": "hecha",
+      "finding": "Existen E01–E05 con nombres originales/normalizados, nulos explícitos y procedencia; se fijó una copia para INT-01.",
+      "nextAction": "Usar esta muestra como material de diseño; no presentarla como cinco municipios ni como muestra representativa.",
+      "acceptance": "Cinco identificadores únicos y procedencia completa, sin completar vacíos con datos externos.",
+      "references": [
+        "AP-5",
+        "AP-9"
+      ],
+      "files": [
+        "evidencias/D01/extraccion/muestra_cinco_registros.json"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "DAT-03",
+      "title": "Definir una muestra heterogénea entre fuentes",
+      "area": "datos",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "Los cinco registros actuales provienen de un único folleto. El anteproyecto promete cinco municipios por criterios mayormente turísticos.",
+      "nextAction": "Justificar selección por formatos, faltantes, conflictos, volumen y tipos de entidad; incorporar fuentes disponibles como RNT y DIVIPOLA.",
+      "acceptance": "Muestreo documentado y alcance coherente; distinguir cinco registros piloto de la muestra final.",
+      "references": [
+        "AP-5"
+      ],
+      "files": [
+        "content/project.ts",
+        "evidencias/D01/extraccion/muestra_cinco_registros.md"
+      ],
+      "dependsOn": [
+        "EVI-03"
+      ]
+    },
+    {
+      "id": "DAT-04",
+      "title": "Diseñar el esquema o perfil de aplicación y sus validaciones",
+      "area": "datos",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "La muestra tiene tipos provisionales; no existe todavía un modelo canónico validado ni un mapeo a estándares.",
+      "nextAction": "Construir diccionario y relaciones; evaluar schema.org, DCAT, PROV y DIVIPOLA y justificar modelo propio o perfil de aplicación.",
+      "acceptance": "Esquema, identificadores, reglas, procedencia y correspondencias probados con datos heterogéneos.",
+      "references": [
+        "AP-9"
+      ],
+      "files": [
+        "evidencias/D01/extraccion/muestra_cinco_registros.json"
+      ],
+      "dependsOn": [
+        "DAT-03",
+        "FOR-03"
+      ]
+    },
+    {
+      "id": "DAT-05",
+      "title": "Documentar condiciones de reutilización y datos personales",
+      "area": "datos",
+      "priority": "alta",
+      "status": "en_curso",
+      "finding": "Los registros incluyen una consulta de la política general del portal; no hay condiciones específicas verificadas para cada recurso o datos de prestadores.",
+      "nextAction": "Inventariar titularidad y condiciones de cada fuente y limitar o anonimizar campos personales cuando corresponda.",
+      "acceptance": "Decisión documentada por fuente sobre uso, atribución y publicación; medidas sobre datos personales revisadas.",
+      "references": [
+        "AP-9"
+      ],
+      "files": [
+        "evidencias/D01/registro.md",
+        "evidencias/D02/registro.md"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "ARQ-01",
+      "title": "Descomponer alternativas en decisiones comparables",
+      "area": "arquitectura",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "La lista actual mezcla monolito, nube, terceros y estrategia estática; una alternativa puede combinar varias de esas decisiones.",
+      "nextAction": "Describir opciones por datos, publicación, presentación y operación; considerar depósito/repositorio, réplicas y canales públicos como candidatos.",
+      "acceptance": "Opciones comparables con supuestos, límites y responsabilidades explícitos, sin ganadora predeterminada.",
+      "references": [
+        "AP-3"
+      ],
+      "files": [
+        "content/project.ts"
+      ],
+      "dependsOn": [
+        "FOR-02",
+        "MET-01"
+      ]
+    },
+    {
+      "id": "ARQ-02",
+      "title": "Acordar criterios, pesos, escalas y sensibilidad antes de puntuar",
+      "area": "arquitectura",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "Los seis criterios iniciales no cubren suficientemente integridad, frescura, actualización no técnica y consulta.",
+      "nextAction": "Agregar criterios compensatorios, estimar costos con método y fijar pesos/umbrales antes de aplicar la matriz.",
+      "acceptance": "Matriz definida previamente, con fuentes, supuestos y análisis de sensibilidad planificado.",
+      "references": [
+        "AP-3"
+      ],
+      "files": [
+        "content/project.ts"
+      ],
+      "dependsOn": [
+        "ARQ-01",
+        "VAL-02"
+      ]
+    },
+    {
+      "id": "ARQ-03",
+      "title": "Precisar uso de ATAM o evaluación multicriterio",
+      "area": "arquitectura",
+      "priority": "alta",
+      "status": "por_revisar",
+      "finding": "La página conserva la etiqueta evaluación inspirada en ATAM; no consta participación de interesados ni árbol de utilidad.",
+      "nextAction": "Acordar participación de interesados y alcance del método; si no aplica, nombrar y justificar una evaluación multicriterio.",
+      "acceptance": "Método y denominación coherentes con las actividades realmente realizadas.",
+      "references": [
+        "AP-7"
+      ],
+      "files": [
+        "app/page.tsx"
+      ],
+      "dependsOn": [
+        "ADM-01",
+        "MET-01"
+      ]
+    },
+    {
+      "id": "ARQ-04",
+      "title": "Diseñar vistas y registrar decisiones arquitectónicas",
+      "area": "arquitectura",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "No hay vistas de una arquitectura seleccionada ni registro de decisiones; el sitio web actual es el medio de presentación.",
+      "nextAction": "Tras comparar, documentar estructura, datos, despliegue, exportación, dependencias y decisiones con sus compromisos.",
+      "acceptance": "Arquitectura trazable a escenarios, criterios y decisiones; diagramas y responsabilidades verificables.",
+      "references": [
+        "AP-3",
+        "AP-8"
+      ],
+      "files": [],
+      "dependsOn": [
+        "ARQ-02",
+        "ARQ-03"
+      ]
+    },
+    {
+      "id": "VAL-01",
+      "title": "Revisar el protocolo INT-01 y sus umbrales",
+      "area": "validacion",
+      "priority": "alta",
+      "status": "por_revisar",
+      "finding": "Existe versión 0.1 con cinco registros y 125 valores; se conserva la referencia y su manifest. Es un protocolo propuesto, no un ensayo ejecutado.",
+      "nextAction": "Revisar criterios de conservación exacta, reglas de comparación y amenazas con el tutor antes del ensayo.",
+      "acceptance": "Versión acordada de INT-01, con umbrales previos, responsables y cambios justificados.",
+      "references": [
+        "AP-5",
+        "TG-6"
+      ],
+      "files": [
+        "investigacion/escenarios/INT-01_integridad.md",
+        "investigacion/escenarios/referencia_INT01/manifest.json"
+      ],
+      "dependsOn": [
+        "ADM-01"
+      ]
+    },
+    {
+      "id": "VAL-02",
+      "title": "Completar de cinco a ocho escenarios de calidad",
+      "area": "validacion",
+      "priority": "critica",
+      "status": "en_curso",
+      "finding": "Solo INT-01 está documentado; las ideas de recuperación, abandono y actualización no tienen aún protocolos completos.",
+      "nextAction": "Definir disponibilidad, documentos/enlaces, reconstrucción por terceros, actualización no técnica y salida de proveedor/dominio; delimitar qué se simula.",
+      "acceptance": "Cada escenario tiene fuente, estímulo, entorno, artefacto, respuesta, medida y umbral justificado antes de construir.",
+      "references": [
+        "AP-2",
+        "AP-5",
+        "TG-6"
+      ],
+      "files": [
+        "investigacion/escenarios/INT-01_integridad.md"
+      ],
+      "dependsOn": [
+        "FOR-02"
+      ]
+    },
+    {
+      "id": "VAL-03",
+      "title": "Implementar y comprobar el comparador de INT-01",
+      "area": "validacion",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "scripts solo contiene sync-evidence.cjs. El comparador y sus controles no están implementados.",
+      "nextAction": "Construir el comparador y verificar casos equivalentes, pérdidas, duplicados, alteraciones, nulos, procedencia y campos inesperados.",
+      "acceptance": "Controles con resultados esperados reproducibles; distinguir prueba del instrumento de evaluación de la arquitectura.",
+      "references": [
+        "TG-6"
+      ],
+      "files": [
+        "investigacion/escenarios/INT-01_integridad.md"
+      ],
+      "dependsOn": [
+        "VAL-01",
+        "TEC-01"
+      ]
+    },
+    {
+      "id": "VAL-04",
+      "title": "Construir la prueba de concepto seleccionada",
+      "area": "validacion",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "No hay implementación de la arquitectura candidata con el modelo y los escenarios acordados. El sitio en Next.js no prueba el artefacto de tesis.",
+      "nextAction": "Construir solo lo necesario para ejecutar los escenarios definidos y registrar instrucciones y versiones.",
+      "acceptance": "Artefacto reproducible vinculado a decisiones y muestra; alcance acorde con una maestría de profundización.",
+      "references": [
+        "AP-5",
+        "UNI"
+      ],
+      "files": [],
+      "dependsOn": [
+        "ARQ-04",
+        "DAT-04",
+        "VAL-02"
+      ]
+    },
+    {
+      "id": "VAL-05",
+      "title": "Ejecutar ensayos y documentar resultados",
+      "area": "validacion",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "No existen resultados de INT-01 ni de abandono, actualización o reconstrucción por terceros.",
+      "nextAction": "Ejecutar protocolos con participantes y condiciones acordadas; conservar paquetes, mediciones, errores y resultados desfavorables.",
+      "acceptance": "Resultados trazables y repetibles con límites: factibilidad no se presenta como superioridad ni longevidad demostrada.",
+      "references": [
+        "AP-5",
+        "TG-6"
+      ],
+      "files": [],
+      "dependsOn": [
+        "VAL-03",
+        "VAL-04"
+      ]
+    },
+    {
+      "id": "RED-01",
+      "title": "Relacionar fuentes, preguntas, escenarios y conclusiones",
+      "area": "redaccion",
+      "priority": "alta",
+      "status": "en_curso",
+      "finding": "Los registros explicitan límites y D03 propone un aporte al diagnóstico; falta una matriz de trazabilidad integral.",
+      "nextAction": "Relacionar cada afirmación con evidencia, cada objetivo con producto y cada escenario con criterio.",
+      "acceptance": "Matriz completa que distingue hechos, inferencias, hipótesis y resultados; ninguna causa se concluye solo a partir de un enlace fallido.",
+      "references": [
+        "TG-5",
+        "AP-1"
+      ],
+      "files": [
+        "evidencias/inventario.md",
+        "evidencias/D03/registro.md"
+      ],
+      "dependsOn": [
+        "FOR-01",
+        "VAL-02"
+      ]
+    },
+    {
+      "id": "RED-02",
+      "title": "Redactar resultados, discusión y conclusiones",
+      "area": "redaccion",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "La documentación disponible es de diagnóstico y preparación; no hay resultados experimentales que sustenten conclusiones de arquitectura.",
+      "nextAction": "Redactar después de medir, discutir compromisos y límites y responder a los objetivos.",
+      "acceptance": "Conclusiones sustentadas, amenazas a la validez y alcance de transferencia explícitos.",
+      "references": [
+        "AP-5",
+        "UNI"
+      ],
+      "files": [],
+      "dependsOn": [
+        "VAL-05",
+        "RED-01"
+      ]
+    },
+    {
+      "id": "RED-03",
+      "title": "Preparar guía, documento final y revisión institucional",
+      "area": "redaccion",
+      "priority": "normal",
+      "status": "pendiente",
+      "finding": "No existe documento final consolidado, guía operativa completa ni expediente de entrega final.",
+      "nextAction": "Integrar anexos, guía de recuperación/operación, referencias y requisitos confirmados por el programa; acordar revisión y presentación.",
+      "acceptance": "Documento coherente con evidencias y pruebas, revisado por tutor y conforme a los requisitos vigentes confirmados.",
+      "references": [
+        "UNI",
+        "AP-10"
+      ],
+      "files": [],
+      "dependsOn": [
+        "RED-02",
+        "ADM-02"
+      ]
+    },
+    {
+      "id": "TEC-01",
+      "title": "Versionar reglas de bytes y verificar una recuperación desde Git",
+      "area": "herramientas",
+      "priority": "alta",
+      "status": "pendiente",
+      "finding": "El commit abd253c contiene evidencias y protocolo. .gitattributes sigue sin seguimiento y la referencia JSON de HEAD difiere en bytes de la copia local que sí coincide con su manifest.",
+      "nextAction": "Incorporar .gitattributes, revisar renormalización y comprobar huellas de un checkout limpio; no cambiar la referencia para ocultar conversiones.",
+      "acceptance": "Copia recuperada desde Git coincide con huellas esperadas y reglas versionadas. Sin afirmar publicación remota a partir de referencias locales.",
+      "references": [
+        "TG-1",
+        "TG-7"
+      ],
+      "files": [
+        ".gitattributes",
+        "investigacion/escenarios/referencia_INT01/manifest.json"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "TEC-02",
+      "title": "Mantener sitio y páginas de lectura de D01–D03",
+      "area": "herramientas",
+      "priority": "normal",
+      "status": "hecha",
+      "finding": "El sitio y las páginas de registro existen; el manifiesto contiene 29 archivos: dos PDF, 23 capturas, tres Markdown y una procedencia técnica.",
+      "nextAction": "Continuar incorporando avances comprobados sin confundir la web de presentación con la prueba de concepto.",
+      "acceptance": "Navegación y lectura disponibles en el código; la disponibilidad del despliegue no se reaudita aquí.",
+      "references": [
+        "TG-7"
+      ],
+      "files": [
+        "app/tesis/page.tsx",
+        "app/tesis/evidencias/[id]/page.tsx",
+        "content/preservation.json"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "TEC-03",
+      "title": "Revisar presentación, referencias y versión de cada entrega",
+      "area": "herramientas",
+      "priority": "normal",
+      "status": "pendiente",
+      "finding": "Persisten el título genérico Arquitectura sostenible, la marca Proyecto Cesar y referencias con enlaces pendientes.",
+      "nextAction": "Unificar denominación por objeto, completar enlaces verificados, identificar versiones y preservar cada entrega revisada.",
+      "acceptance": "Identidad y referencias coherentes, versión revisable y copia de la entrega; sin confundir la fecha de revisión con la de consulta de las fuentes.",
+      "references": [
+        "AP-2",
+        "AP-10",
+        "TG-7"
+      ],
+      "files": [
+        "app/layout.tsx",
+        "content/project.ts",
+        "components/SiteHeader.tsx"
+      ],
+      "dependsOn": []
+    },
+    {
+      "id": "TEC-04",
+      "title": "Crear un tablero de pendientes con seguimiento local",
+      "area": "herramientas",
+      "priority": "normal",
+      "status": "hecha",
+      "finding": "La revisión del 26 de octubre reúne tareas, prioridades, criterios de cierre y soporte; el tablero se incorpora en este cambio.",
+      "nextAction": "Actualizarlo al terminar tareas, exportar el seguimiento y revisar el plan base cuando haya evidencia nueva.",
+      "acceptance": "Página con filtros, estados, notas y fechas locales, exportación/importación y plan base versionable; sin publicar ni sincronizar estados automáticamente.",
+      "references": [
+        "TG-2",
+        "TG-7"
+      ],
+      "files": [
+        "app/pendientes/page.tsx",
+        "content/roadmap.json",
+        "components/TaskTracker.tsx"
+      ],
+      "dependsOn": []
+    }
+  ],
+  "nextTaskIds": [
+    "FOR-02",
+    "FOR-01",
+    "ADM-01"
+  ],
+  "findings": [
+    {
+      "title": "Diagnóstico documental en curso",
+      "detail": "D01–D03 tienen soporte preservado y límites; D04 sigue pendiente de contraste directo. No se ha demostrado una causa de discontinuidad."
+    },
+    {
+      "title": "Muestra exploratoria preparada",
+      "detail": "Ocho bloques del mapa, 48 menciones/actividades y cinco registros con procedencia. No son cinco municipios ni una muestra entre fuentes."
+    },
+    {
+      "title": "Evaluación preparada parcialmente",
+      "detail": "INT-01 tiene protocolo y referencia de cinco registros / 125 valores. Falta revisarlo, implementar el comparador y ejecutar ensayos."
+    },
+    {
+      "title": "Anteproyecto por ajustar",
+      "detail": "La pregunta y el primer objetivo aún presuponen causas técnicas; faltan definición bibliográfica, método completo y comparación equilibrada."
+    }
+  ],
+  "decisions": [
+    {
+      "title": "Pregunta y alcance",
+      "detail": "Revisar la separación entre diagnóstico causal y evaluación del aporte arquitectónico; no afirmar pérdida definitiva ni causa técnica sin evidencia."
+    },
+    {
+      "title": "Nombre del artefacto",
+      "detail": "Acordar arquitectura candidata o justificar el alcance de referencia mediante casos y evaluación adicionales."
+    },
+    {
+      "title": "Método y actores",
+      "detail": "Decidir el marco metodológico y si habrá participación real para ATAM o evaluación multicriterio con otra denominación."
+    },
+    {
+      "title": "Muestra, escenarios y calendario",
+      "detail": "Acordar fuentes heterogéneas, cinco a ocho escenarios con umbrales previos, participantes y fechas realistas."
+    }
+  ]
+}

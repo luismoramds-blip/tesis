@@ -6,11 +6,11 @@ Este inventario organiza evidencia documental; no constituye todavía un diagnó
 
 | Recurso | Evidencia y localizador | Hallazgo sustentado | Límite | Siguiente actividad |
 | --- | --- | --- | --- | --- |
-| Mapa Turístico del Cesar | [D01](D01/registro.md), PDF local de una página | Se conserva una copia PDF con texto extraíble y huella SHA-256 | No equivale a la guía completa ni a datos estructurados validados | Extraer una muestra de atractivos y registrar nombre, municipio, página y campos ausentes |
+| Mapa Turístico del Cesar | [D01](D01/registro.md), PDF local de una página | Se conserva una copia PDF con texto extraíble y huella SHA-256 | No equivale a la guía completa ni a datos estructurados validados | Extracción y cinco registros exploratorios preparados; ampliar a otras fuentes y contrastar el esquema |
 | Guía turística en Flipsnack | D01, capturas 02–06 | Se observa el visor; el intento de descarga documentado falla y se conservan consultas DNS | No demuestra pérdida definitiva ni indisponibilidad global | Mantener la búsqueda de copia alternativa como pendiente; no repetir pruebas idénticas |
 | Plan Sectorial de Turismo, ficha S.02 | [D02](D02/registro.md), PDF 182 / impresa 175 | El plan describe el fortalecimiento del SITUR y una inversión anual propuesta | No prueba ejecución, desembolsos ni operación actual | Vincular este antecedente con publicaciones históricas verificadas de SITUR |
-
 | Informe de turismo receptor, mayo de 2018 | [D03](D03/registro.md), diez capturas | Publicación institucional y ficha histórica reproducidas; informe no recuperado por las vías documentadas | No prueba pérdida definitiva, cierre ni causas; no permite analizar los datos del informe | Buscar otra copia como ampliación y formular un escenario de recuperación verificable |
+| Informe de Gestión 2018 | [D05](D05/registro.md), PDF 168 de 232, sin número impreso visible | La Gobernación declara implementación de SITUR en 2018 y recursos por $700.000.000 gestionados ante FONTUR | Declaración institucional; no verifica ejecución financiera, continuidad ni causas | Recuperar convenio y contrastar responsabilidades y recursos |
 
 ## Próxima tarea de investigación
 

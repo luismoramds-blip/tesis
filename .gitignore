@@ -10,4 +10,5 @@ out/
 
 # Generated from reviewed evidence sources during predev/prebuild
 /public/evidencias/
+/public/seguimiento/
 

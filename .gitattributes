@@ -1,0 +1,5 @@
+# Preserve exact bytes of evidence and frozen research inputs for SHA-256 checks.
+/evidencias/** -text
+/investigacion/** -text
+*.pdf binary
+*.png binary

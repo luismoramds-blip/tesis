@@ -245,5 +245,34 @@
         "kind": "png"
       }
     ]
+  },
+  {
+    "id": "D05",
+    "files": [
+      {
+        "label": "Informe de Gestión 2018 · PDF de 232 páginas",
+        "name": "informe_de_gestion_vigencia_2018.pdf",
+        "url": "/evidencias/D05/informe_de_gestion_vigencia_2018.pdf",
+        "size": 11064676,
+        "sha256": "FE4BAF6F4B972335D9020AA99D99ECD19EFD77CC56E33E705DC03B76F23ED5F0",
+        "kind": "pdf"
+      },
+      {
+        "label": "Registro de preservación D05",
+        "name": "registro.md",
+        "url": "/evidencias/D05/registro.md",
+        "size": 4938,
+        "sha256": "6108764AED5EF0A9ABBB1BC4349F27A0A64B569F9026595EC94CED83055532F2",
+        "kind": "md"
+      },
+      {
+        "label": "Apartado 2.1.5 · implementación y recursos reportados",
+        "name": "capturas/informe_de_gestion_cesar_2018.png",
+        "url": "/evidencias/D05/capturas/informe_de_gestion_cesar_2018.png",
+        "size": 84227,
+        "sha256": "BC369154C4915CC7A720C65CBACCE368BB0040749104EC15B143ED67191E04E5",
+        "kind": "png"
+      }
+    ]
   }
 ]
